@@ -1,0 +1,44 @@
+{
+  "id": "65c5f976-5f3b-4437-8f56-ccbe34cee051",
+  "name": "Youtube",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fee21b5b-2dca-4829-a082-fc99cab8dbb3",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "query",
+          "value": "$query",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": "youtube zoek : $query"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

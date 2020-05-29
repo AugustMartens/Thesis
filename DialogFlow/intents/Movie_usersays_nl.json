@@ -1,0 +1,94 @@
+[
+  {
+    "id": "05693958-26fd-4b30-9502-3ff5354cf119",
+    "data": [
+      {
+        "text": "Vertel me meer over de ",
+        "userDefined": false
+      },
+      {
+        "text": "movie",
+        "alias": "Film",
+        "meta": "@Film",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Blood Diamond",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eea7d95a-c982-4de5-a9fa-26293ec8cbce",
+    "data": [
+      {
+        "text": "Wie was de producer van de ",
+        "userDefined": false
+      },
+      {
+        "text": "film",
+        "alias": "Film",
+        "meta": "@Film",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Once Upon A time in Hollywood?",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8c9c0fd9-7c65-4703-9c9e-be74739f63be",
+    "data": [
+      {
+        "text": "Geef me meer informatie over de ",
+        "userDefined": false
+      },
+      {
+        "text": "film",
+        "alias": "Film",
+        "meta": "@Film",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "The Avengers",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

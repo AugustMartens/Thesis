@@ -1,0 +1,64 @@
+[
+  {
+    "id": "44e2b8e2-68e2-4fe2-8933-68d8799e4952",
+    "data": [
+      {
+        "text": "Kan je nog een ",
+        "userDefined": false
+      },
+      {
+        "text": "grap",
+        "alias": "mop",
+        "meta": "@mop",
+        "userDefined": true
+      },
+      {
+        "text": " vertellen?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f237debb-323e-46d6-b3f1-f6ad9f31356f",
+    "data": [
+      {
+        "text": "Vertel me is een ",
+        "userDefined": false
+      },
+      {
+        "text": "mop",
+        "alias": "mop",
+        "meta": "@mop",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "146664ca-1014-4b06-9b00-8a817092dea2",
+    "data": [
+      {
+        "text": "Zeg is een ",
+        "userDefined": false
+      },
+      {
+        "text": "mop.",
+        "alias": "mop",
+        "meta": "@mop",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "5e5389d1-c1c6-47d2-a0c1-10eb9aeaa1db",
+    "data": [
+      {
+        "text": "Kan je mijn ongelezen ",
+        "userDefined": false
+      },
+      {
+        "text": "mails",
+        "alias": "mail",
+        "meta": "@mail",
+        "userDefined": true
+      },
+      {
+        "text": " voorlezen?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "96f2765b-1dfa-4271-b70c-8a72d9df5bb8",
+    "data": [
+      {
+        "text": "Lees mijn laatste ",
+        "userDefined": false
+      },
+      {
+        "text": "Gmail berichten",
+        "alias": "mail",
+        "meta": "@mail",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

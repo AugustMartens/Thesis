@@ -1,0 +1,9 @@
+{
+  "id": "d98f7c72-2426-4f1a-bf02-b56dd7524184",
+  "name": "mop",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

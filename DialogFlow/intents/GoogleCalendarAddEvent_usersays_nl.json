@@ -1,0 +1,296 @@
+[
+  {
+    "id": "45332aa8-aee8-458c-91a8-9a3dbb406e54",
+    "data": [
+      {
+        "text": "Agenda",
+        "alias": "googleCalendar",
+        "meta": "@googleCalendar",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "morgen middag",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Thesis presentatie",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b4ccb1e5-46a3-4dd0-a801-bab811ad885a",
+    "data": [
+      {
+        "text": "Agenda",
+        "alias": "googleCalendar",
+        "meta": "@googleCalendar",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "morgen middag",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Meeting",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cc087ccd-ed12-4385-b04a-a2630d9a37a6",
+    "data": [
+      {
+        "text": "Agenda",
+        "alias": "googleCalendar",
+        "meta": "@googleCalendar",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "morgen van 19u tot 19u15",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "kijken of uur klopt",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3474e077-87c9-4d59-83f5-9c02e0b696f6",
+    "data": [
+      {
+        "text": "Agenda",
+        "alias": "googleCalendar",
+        "meta": "@googleCalendar",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "overmorgen van 18u tot 18u15",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Meeting thesis",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b364e00c-988f-4883-b0c0-eff3e3e31927",
+    "data": [
+      {
+        "text": "Agenda",
+        "alias": "googleCalendar",
+        "meta": "@googleCalendar",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "morgen middag",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "les Distributed Applications",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "daa58d63-8ecd-4849-b7a5-93aadc8b8a53",
+    "data": [
+      {
+        "text": "Voeg aan mijn ",
+        "userDefined": false
+      },
+      {
+        "text": "agenda",
+        "alias": "googleCalendar",
+        "meta": "@googleCalendar",
+        "userDefined": true
+      },
+      {
+        "text": " toe dat ik ",
+        "userDefined": false
+      },
+      {
+        "text": "morgen van 10u tot 11u",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": true
+      },
+      {
+        "text": " een afspraak heb voor mijn ",
+        "userDefined": false
+      },
+      {
+        "text": "thesis",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cac17cba-15b7-46d5-9f27-0f599605292d",
+    "data": [
+      {
+        "text": "Voeg aan mijn ",
+        "userDefined": false
+      },
+      {
+        "text": "agenda",
+        "alias": "googleCalendar",
+        "meta": "@googleCalendar",
+        "userDefined": true
+      },
+      {
+        "text": " toe dat ik ",
+        "userDefined": false
+      },
+      {
+        "text": "morgen vanaf 2u tot 4u",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": true
+      },
+      {
+        "text": " een afspraak heb met de ",
+        "userDefined": false
+      },
+      {
+        "text": "dokter",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " voor mijn ",
+        "userDefined": false
+      },
+      {
+        "text": "nierstenen",
+        "alias": "any1",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

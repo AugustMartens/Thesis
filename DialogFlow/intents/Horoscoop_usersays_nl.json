@@ -1,0 +1,42 @@
+[
+  {
+    "id": "8ab944d7-9765-40a5-a401-6b02726b2d98",
+    "data": [
+      {
+        "text": "Wat is mijn ",
+        "userDefined": false
+      },
+      {
+        "text": "horoscoop",
+        "alias": "horoscoop",
+        "meta": "@horoscoop",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "82750ebf-22f5-4a1a-aae5-8ea9152ccd4b",
+    "data": [
+      {
+        "text": "Vertel me mijn ",
+        "userDefined": false
+      },
+      {
+        "text": "horoscoop.",
+        "alias": "horoscoop",
+        "meta": "@horoscoop",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

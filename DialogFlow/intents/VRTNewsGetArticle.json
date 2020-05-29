@@ -1,0 +1,56 @@
+{
+  "id": "02ba4be6-7880-4191-a661-3775d24ba3ad",
+  "name": "VRTNewsGetArticle",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ba44feda-f673-45f5-8150-533d754925d8",
+          "required": true,
+          "dataType": "@vrtArtikel",
+          "name": "vrtArtikel",
+          "value": "$vrtArtikel",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "9bcf7f8a-26ff-4c0e-be3b-12a11ee25a78",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "number-integer",
+          "value": "$number-integer",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

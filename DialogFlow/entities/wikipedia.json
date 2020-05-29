@@ -1,0 +1,9 @@
+{
+  "id": "a0668327-d580-4e11-a72e-a274706e33d2",
+  "name": "wikipedia",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

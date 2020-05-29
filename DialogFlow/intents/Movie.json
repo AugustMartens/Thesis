@@ -1,0 +1,56 @@
+{
+  "id": "80676477-1a8b-4bde-9ae7-84f3aa071f81",
+  "name": "Movie",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "da85f579-03ba-4f8a-91ff-2d01419fa6cb",
+          "required": true,
+          "dataType": "@Film",
+          "name": "Film",
+          "value": "$Film",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8525736b-e570-4660-8b4b-4a36a7ee0623",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

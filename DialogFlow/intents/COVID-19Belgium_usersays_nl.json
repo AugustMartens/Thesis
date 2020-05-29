@@ -1,0 +1,97 @@
+[
+  {
+    "id": "d70150a4-cb1e-403b-b2f2-af353eb4d09c",
+    "data": [
+      {
+        "text": "Ik zou graag meer info willen over het totaal aantal besmettingen met ",
+        "userDefined": false
+      },
+      {
+        "text": "COVID-19",
+        "alias": "covid-19",
+        "meta": "@covid-19",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "België",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ea19230e-3ebe-4fb9-b36b-fed407a5f342",
+    "data": [
+      {
+        "text": "Hoeveel nieuwe cases werden er vandaag vastgesteld in ons land over ",
+        "userDefined": false
+      },
+      {
+        "text": "COVID-19",
+        "alias": "covid-19",
+        "meta": "@covid-19",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "47a1df09-70d0-4d83-86c9-5e828b840271",
+    "data": [
+      {
+        "text": "Geef me ",
+        "userDefined": false
+      },
+      {
+        "text": "een",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " update over ",
+        "userDefined": false
+      },
+      {
+        "text": "COVID-19",
+        "alias": "covid-19",
+        "meta": "@covid-19",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "België",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

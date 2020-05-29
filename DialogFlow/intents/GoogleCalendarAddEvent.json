@@ -1,0 +1,92 @@
+{
+  "id": "5553f115-0df3-41e7-baca-e0a246383e4e",
+  "name": "GoogleCalendarAddEvent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1b05811d-9f6e-4de2-8152-c518a938b651",
+          "required": true,
+          "dataType": "@googleCalendar",
+          "name": "googleCalendar",
+          "value": "$googleCalendar",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a8aec809-68eb-42f8-8487-820992aca053",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "ddf2d3e4-705b-4941-84d4-2fc534959030",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "23e8e6b8-44c8-4288-9516-45bb0a0cdac8",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any1",
+          "value": "$any1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "adeaeb3c-3b3e-4fa9-952c-296751c02991",
+          "required": true,
+          "dataType": "@sys.time-period",
+          "name": "time-period",
+          "value": "$time-period",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

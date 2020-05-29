@@ -1,0 +1,17 @@
+[
+  {
+    "value": "Corona",
+    "synonyms": [
+      "Corona",
+      "COVID-19"
+    ]
+  },
+  {
+    "value": "COVID-19",
+    "synonyms": [
+      "COVID-19",
+      "Corona",
+      "Coronavirus"
+    ]
+  }
+]

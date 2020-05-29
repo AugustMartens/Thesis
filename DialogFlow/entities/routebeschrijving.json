@@ -1,0 +1,9 @@
+{
+  "id": "f7ca0a53-113e-459b-aeb4-5b98143207fa",
+  "name": "routebeschrijving",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

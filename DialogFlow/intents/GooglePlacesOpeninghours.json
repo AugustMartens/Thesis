@@ -1,0 +1,56 @@
+{
+  "id": "da1f2635-80b5-4a1f-bab6-060cae71c614",
+  "name": "GooglePlacesOpeninghours",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8a765415-48dc-4552-b1e9-3192692af6bd",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "bfecfccb-5217-4b1c-9873-f0d45337b07c",
+          "required": true,
+          "dataType": "@openingsuren",
+          "name": "openingsuren",
+          "value": "$openingsuren",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

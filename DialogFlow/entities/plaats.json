@@ -1,0 +1,9 @@
+{
+  "id": "78ef8e30-f661-477a-ae4e-a439239a098d",
+  "name": "plaats",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

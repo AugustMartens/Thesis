@@ -1,0 +1,9 @@
+{
+  "id": "5d714af5-07ba-44a8-b608-9a8f1c23168b",
+  "name": "vrtArtikel",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

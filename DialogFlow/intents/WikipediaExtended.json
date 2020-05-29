@@ -1,0 +1,56 @@
+{
+  "id": "ae2b108f-4213-4cf6-8811-8d681356e1d3",
+  "name": "WikipediaExtended",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "180b0ec5-dd13-418e-b7e6-b12f89c2dab8",
+          "required": true,
+          "dataType": "@wikipedia",
+          "name": "wikipedia",
+          "value": "$wikipedia",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "107ee7e3-9c4e-43b1-a85e-f814845c7d46",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "e7589a7a-c353-4f53-9d62-757e00c23c65",
+    "data": [
+      {
+        "text": "Wat weet ",
+        "userDefined": false
+      },
+      {
+        "text": "GooglePlaces",
+        "alias": "plaats1",
+        "meta": "@plaats",
+        "userDefined": true
+      },
+      {
+        "text": " over het ",
+        "userDefined": false
+      },
+      {
+        "text": "Atomium",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

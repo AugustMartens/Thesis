@@ -1,0 +1,16 @@
+[
+  {
+    "value": "mop",
+    "synonyms": [
+      "mop",
+      "grap"
+    ]
+  },
+  {
+    "value": "grap",
+    "synonyms": [
+      "grap",
+      "mop"
+    ]
+  }
+]

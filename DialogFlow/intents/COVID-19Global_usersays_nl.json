@@ -1,0 +1,66 @@
+[
+  {
+    "id": "42c17fb8-eed3-4a7e-add6-746c9fdfcc9b",
+    "data": [
+      {
+        "text": "Ik zou graag meer weten over het nieuwe aantal besmettingen met ",
+        "userDefined": false
+      },
+      {
+        "text": "COVID-19",
+        "alias": "covid-19",
+        "meta": "@covid-19",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "wereldwijd",
+        "alias": "wereldwijd",
+        "meta": "@wereldwijd",
+        "userDefined": true
+      },
+      {
+        "text": " vandaag.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d5c22056-34f5-40a7-a764-96adeaceb7cb",
+    "data": [
+      {
+        "text": "Kan je me informatie geven over de recente evolutie omtrent ",
+        "userDefined": false
+      },
+      {
+        "text": "Corona",
+        "alias": "covid-19",
+        "meta": "@covid-19",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "wereldwijd",
+        "alias": "wereldwijd",
+        "meta": "@wereldwijd",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

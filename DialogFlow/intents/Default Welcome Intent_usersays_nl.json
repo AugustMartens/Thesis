@@ -1,0 +1,122 @@
+[
+  {
+    "id": "28828e68-513d-494b-9f92-04c595cedc30",
+    "data": [
+      {
+        "text": "hé",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ecc3a76-f6b9-46d3-9cfc-61eb2d29b43e",
+    "data": [
+      {
+        "text": "hoi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e1164825-5381-4be7-b4a3-3e20e9b1014c",
+    "data": [
+      {
+        "text": "hé hoi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "866ac726-339a-48fd-97e1-6f081289b179",
+    "data": [
+      {
+        "text": "hé hallo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "29a53819-257a-40e5-90ce-8e88de351270",
+    "data": [
+      {
+        "text": "gegroet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6dfd717e-b79c-40db-beca-8abb23191392",
+    "data": [
+      {
+        "text": "ik begroet je",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8cf6a70c-e3cd-4860-9c5e-26e12cad0dc3",
+    "data": [
+      {
+        "text": "lang niet gezien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5187cf31-72ce-4570-910d-42f20fcbf275",
+    "data": [
+      {
+        "text": "goeiedag",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9eec6de6-6ca4-4fcc-af90-dcf1545d6463",
+    "data": [
+      {
+        "text": "goedendag",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5d9a4919-d0e5-4953-b8cb-4840e4e6e874",
+    "data": [
+      {
+        "text": "hallo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

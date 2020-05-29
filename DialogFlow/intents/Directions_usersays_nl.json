@@ -1,0 +1,457 @@
+[
+  {
+    "id": "b0441af3-d29d-4da0-b3f5-45f380c2e138",
+    "data": [
+      {
+        "text": "routebeschrijving",
+        "alias": "routebeschrijving",
+        "meta": "@routebeschrijving",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Heverlee",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0ba034d4-a876-45d9-99f4-5ebe6abccad2",
+    "data": [
+      {
+        "text": "Geef me de ",
+        "userDefined": false
+      },
+      {
+        "text": "weg",
+        "alias": "routebeschrijving",
+        "meta": "@routebeschrijving",
+        "userDefined": true
+      },
+      {
+        "text": " om te ",
+        "userDefined": false
+      },
+      {
+        "text": "wandelen",
+        "alias": "transportWalking",
+        "meta": "@transportWalking",
+        "userDefined": true
+      },
+      {
+        "text": " van ",
+        "userDefined": false
+      },
+      {
+        "text": "Borchtlombeek",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Strijtem",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46cb5b79-9284-46ae-a7c4-435c0892609b",
+    "data": [
+      {
+        "text": "Geef me de ",
+        "userDefined": false
+      },
+      {
+        "text": "weg",
+        "alias": "routebeschrijving",
+        "meta": "@routebeschrijving",
+        "userDefined": true
+      },
+      {
+        "text": " om met de ",
+        "userDefined": false
+      },
+      {
+        "text": "auto",
+        "alias": "transportCar",
+        "meta": "@transportCar",
+        "userDefined": true
+      },
+      {
+        "text": " van ",
+        "userDefined": false
+      },
+      {
+        "text": "Hoogstraten",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Rijkevorsel",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " te gaan.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c98ed3db-bcfe-4553-8b16-29bb9e14f35e",
+    "data": [
+      {
+        "text": "Geef de ",
+        "userDefined": false
+      },
+      {
+        "text": "routebeschrijving",
+        "alias": "routebeschrijving",
+        "meta": "@routebeschrijving",
+        "userDefined": true
+      },
+      {
+        "text": " om met de ",
+        "userDefined": false
+      },
+      {
+        "text": "auto",
+        "alias": "transportCar",
+        "meta": "@transportCar",
+        "userDefined": true
+      },
+      {
+        "text": " van ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Gent",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "30b5c60a-73a3-449b-8900-d9adc9bab06b",
+    "data": [
+      {
+        "text": "Hoe moet ik ",
+        "userDefined": false
+      },
+      {
+        "text": "wandelen",
+        "alias": "transportWalking",
+        "meta": "@transportWalking",
+        "userDefined": true
+      },
+      {
+        "text": " om van ",
+        "userDefined": false
+      },
+      {
+        "text": "Borchtlombeek",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Strijtem",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " te gaan?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c8d2eee1-d700-4674-9845-37009be1e446",
+    "data": [
+      {
+        "text": "Geef me de ",
+        "userDefined": false
+      },
+      {
+        "text": "weg",
+        "alias": "routebeschrijving",
+        "meta": "@routebeschrijving",
+        "userDefined": false
+      },
+      {
+        "text": " van ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Gent",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " om met ",
+        "userDefined": false
+      },
+      {
+        "text": "de",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fiets",
+        "alias": "transportCycling",
+        "meta": "@transportCycling",
+        "userDefined": false
+      },
+      {
+        "text": " te gaan.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "80cc912f-e843-4fa0-9cc0-e5ada4979408",
+    "data": [
+      {
+        "text": "Geef me de ",
+        "userDefined": false
+      },
+      {
+        "text": "routebeschrijving",
+        "alias": "routebeschrijving",
+        "meta": "@routebeschrijving",
+        "userDefined": true
+      },
+      {
+        "text": " van ",
+        "userDefined": false
+      },
+      {
+        "text": "Borchtlombeek",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Strijtem",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "deafd732-96a5-4f30-931f-bed38ec12a50",
+    "data": [
+      {
+        "text": "Geef me de ",
+        "userDefined": false
+      },
+      {
+        "text": "routebeschrijving",
+        "alias": "routebeschrijving",
+        "meta": "@routebeschrijving",
+        "userDefined": true
+      },
+      {
+        "text": " om van ",
+        "userDefined": false
+      },
+      {
+        "text": "Dekenstraat 38, Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar de ",
+        "userDefined": false
+      },
+      {
+        "text": "Andreas Vesaliusstraat 13 Leuven",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " te gaan.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c8357581-e9be-4a9b-b0f4-0c0e7aabe850",
+    "data": [
+      {
+        "text": "Welke ",
+        "userDefined": false
+      },
+      {
+        "text": "weg",
+        "alias": "routebeschrijving",
+        "meta": "@routebeschrijving",
+        "userDefined": true
+      },
+      {
+        "text": " moet ik volgen om naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " te gaan?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6f04045d-926c-4366-9f17-f2b05f471587",
+    "data": [
+      {
+        "text": "Geef me de ",
+        "userDefined": false
+      },
+      {
+        "text": "routebeschrijving",
+        "alias": "routebeschrijving",
+        "meta": "@routebeschrijving",
+        "userDefined": true
+      },
+      {
+        "text": " van ",
+        "userDefined": false
+      },
+      {
+        "text": "Roosdaal",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Ninove",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

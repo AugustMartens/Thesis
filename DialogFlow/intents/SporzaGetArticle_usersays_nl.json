@@ -1,0 +1,36 @@
+[
+  {
+    "id": "59787e64-e720-4b49-b8d5-ff6f533c8804",
+    "data": [
+      {
+        "text": "Sporza",
+        "alias": "Sporza",
+        "meta": "@Sporza",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "artikel",
+        "alias": "vrtArtikel",
+        "meta": "@vrtArtikel",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number-integer",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

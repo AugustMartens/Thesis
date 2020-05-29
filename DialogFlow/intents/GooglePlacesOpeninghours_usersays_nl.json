@@ -1,0 +1,34 @@
+[
+  {
+    "id": "c1871ae1-2555-4448-a4ca-7a8dd90ef608",
+    "data": [
+      {
+        "text": "Wanneer is de ",
+        "userDefined": false
+      },
+      {
+        "text": "Vimar in Borchtlombeek",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "open",
+        "alias": "openingsuren",
+        "meta": "@openingsuren",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

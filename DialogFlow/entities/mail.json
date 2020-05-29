@@ -1,0 +1,9 @@
+{
+  "id": "0c418a7a-e719-4d7c-bc00-4de5694f8e04",
+  "name": "mail",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

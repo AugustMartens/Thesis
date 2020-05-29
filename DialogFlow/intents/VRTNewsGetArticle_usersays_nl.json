@@ -1,0 +1,94 @@
+[
+  {
+    "id": "d8f35820-8e42-499e-9b7d-c4c88c7c61ac",
+    "data": [
+      {
+        "text": "Artikel",
+        "alias": "vrtArtikel",
+        "meta": "@vrtArtikel",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number-integer",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1de19d16-fa33-4e08-a33d-2dee62b0156c",
+    "data": [
+      {
+        "text": "Geef me het ",
+        "userDefined": false
+      },
+      {
+        "text": "VRT artikel",
+        "alias": "vrtArtikel",
+        "meta": "@vrtArtikel",
+        "userDefined": true
+      },
+      {
+        "text": " nummer",
+        "userDefined": false
+      },
+      {
+        "text": " 5",
+        "alias": "number-integer",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "84453db0-a532-4983-99a9-9ad75908ab84",
+    "data": [
+      {
+        "text": "Geef me ",
+        "userDefined": false
+      },
+      {
+        "text": "VRT artikel",
+        "alias": "vrtArtikel",
+        "meta": "@vrtArtikel",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number-integer",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

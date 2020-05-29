@@ -1,0 +1,108 @@
+[
+  {
+    "id": "a9be0765-9f67-48e3-b8a8-fd18cfb74a91",
+    "data": [
+      {
+        "text": "Kan je me de tijdstippen geven wanneer ik een trein kan nemen van ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Gent-Sint-Pieters",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "380be941-9535-42ba-a5e6-9d99b78ae78b",
+    "data": [
+      {
+        "text": "Geef een lijst van de uren van de treinen die vertrekken van ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Liedekerke",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " om ",
+        "userDefined": false
+      },
+      {
+        "text": "4 morgen in de namiddag",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c5842976-3cfb-44d5-aea0-e798a0e720a9",
+    "data": [
+      {
+        "text": "Geef een lijst van de treinen die vertrekken van ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Liedekerke",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

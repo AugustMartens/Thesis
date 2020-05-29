@@ -1,0 +1,9 @@
+{
+  "id": "99f34597-7951-44e1-891a-c92ffa51ac9e",
+  "name": "verkeer",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

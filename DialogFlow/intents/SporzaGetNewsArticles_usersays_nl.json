@@ -1,0 +1,38 @@
+[
+  {
+    "id": "6dc48256-1e7c-447f-86da-d65cca50a5a0",
+    "data": [
+      {
+        "text": "Sporza",
+        "alias": "Sporza",
+        "meta": "@Sporza",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af205a09-274c-4a8d-abef-4d4175a8521d",
+    "data": [
+      {
+        "text": "Sporza",
+        "alias": "Sporza",
+        "meta": "@Sporza",
+        "userDefined": true
+      },
+      {
+        "text": " nieuws berichten.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

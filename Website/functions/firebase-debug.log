@@ -1,0 +1,1025 @@
+[debug] [2020-03-23T09:03:42.521Z] ----------------------------------------------------------------------
+[debug] [2020-03-23T09:03:42.522Z] Command:       /usr/bin/node /usr/bin/firebase serve --only functions,hosting
+[debug] [2020-03-23T09:03:42.523Z] CLI Version:   7.14.0
+[debug] [2020-03-23T09:03:42.523Z] Platform:      linux
+[debug] [2020-03-23T09:03:42.523Z] Node Version:  v13.9.0
+[debug] [2020-03-23T09:03:42.523Z] Time:          Mon Mar 23 2020 10:03:42 GMT+0100 (Central European Standard Time)
+[debug] [2020-03-23T09:03:42.523Z] ----------------------------------------------------------------------
+[debug] [2020-03-23T09:03:42.523Z] 
+[debug] [2020-03-23T09:03:42.529Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-23T09:03:42.529Z] > authorizing via signed-in user
+[debug] [2020-03-23T09:03:42.529Z] [iam] checking project thesis-c30c3 for permissions ["firebase.projects.get"]
+[debug] [2020-03-23T09:03:42.531Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/thesis-c30c3:testIamPermissions  
+
+[debug] [2020-03-23T09:03:43.350Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-23T09:03:43.353Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/thesis-c30c3  
+ 
+[debug] [2020-03-23T09:03:43.638Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-23T09:03:43.648Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/thesis-c30c3/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "13"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[debug] [2020-03-23T09:03:44.244Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/home/lennert/Documents/thesis_site/functions" for Cloud Functions...
+[debug] [2020-03-23T09:03:44.275Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:03:44.276Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-23T09:03:44.276Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:03:44.276Z] [worker-~diagnostic~-42707c29-7638-4d2a-af27-da4e08dead93]: Assigning socketPath: /tmp/fire_emu_4708.sock
+[debug] [2020-03-23T09:03:44.276Z] [worker-~diagnostic~-42707c29-7638-4d2a-af27-da4e08dead93]: BUSY
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2020-03-23T09:03:44.554Z] [runtime-status] [4708] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:03:44.559Z] [runtime-status] [4708] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:03:44.562Z] [runtime-status] [4708] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:03:44.565Z] [runtime-status] [4708] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:03:44.568Z] [runtime-status] [4708] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[app]: http function initialized (http://localhost:5001/thesis-c30c3/us-central1/app).
+[debug] [2020-03-23T09:03:45.078Z] [worker-~diagnostic~-42707c29-7638-4d2a-af27-da4e08dead93]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:03:46.413Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:03:46.415Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:03:46.415Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:03:46.425Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:03:46.425Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:03:46.425Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:03:46.425Z] [worker-app-9b9c7a73-a97b-4c14-bb21-16083021bcde]: Assigning socketPath: /tmp/fire_emu_4723.sock
+[debug] [2020-03-23T09:03:46.426Z] [worker-app-9b9c7a73-a97b-4c14-bb21-16083021bcde]: BUSY
+[debug] [2020-03-23T09:03:46.791Z] [runtime-status] [4723] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:03:46.795Z] [runtime-status] [4723] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:03:46.803Z] [runtime-status] [4723] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:03:46.809Z] [runtime-status] [4723] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:03:46.813Z] [runtime-status] [4723] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:03:47.324Z] [runtime-status] [4723] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:03:47.329Z] [runtime-status] [4723] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:03:47.330Z] [runtime-status] [4723] Running app in mode HTTPS
+[debug] [2020-03-23T09:03:47.342Z] [runtime-status] [4723] Attempting to listen to socketPath: /tmp/fire_emu_4723.sock
+[debug] [2020-03-23T09:03:47.348Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:03:47.366Z] [runtime-status] [4723] Ephemeral server handling GET request
+[debug] [2020-03-23T09:03:47.412Z] [runtime-status] [4723] Ephemeral server survived.
+[info] >  ReferenceError: /home/lennert/Documents/thesis_site/functions/views/register.ejs:98
+[info] >      96|       <div class="field">
+[info] >      97|         <p class="control has-icons-left has-icons-right">
+[info] >   >> 98|           <input class= <%-inputEmail%> type="email" name="email" placeholder="Email" required>
+[info] >      99|           <span class="icon is-small is-left">
+[info] >      100|       <i class= <%-inputEmailIcon%>></i>
+[info] >      101|     </span>
+[info] >  
+[info] >  inputEmail is not defined
+[info] >      at eval (/home/lennert/Documents/thesis_site/functions/views/register.ejs:10:16)
+[info] >      at register (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:656:17)
+[info] >      at tryHandleCache (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:254:36)
+[info] >      at View.exports.renderFile [as engine] (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:459:10)
+[info] >      at View.render (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/view.js:135:8)
+[info] >      at tryRender (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/application.js:640:10)
+[info] >      at Function.render (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/application.js:592:3)
+[info] >      at ServerResponse.render (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/response.js:1012:7)
+[info] >      at /home/lennert/Documents/thesis_site/functions/index.js:36:7
+[info] >      at Layer.handle [as handle_request] (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/router/layer.js:95:5)
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:03:47.532Z] [worker-app-9b9c7a73-a97b-4c14-bb21-16083021bcde]: IDLE
+[debug] [2020-03-23T09:03:47.532Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T09:04:02.946Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T09:04:03.947Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:04:03.947Z] [worker-~diagnostic~-42707c29-7638-4d2a-af27-da4e08dead93]: FINISHING
+[debug] [2020-03-23T09:04:03.948Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T09:04:03.948Z] [worker-app-9b9c7a73-a97b-4c14-bb21-16083021bcde]: FINISHING
+[debug] [2020-03-23T09:04:03.967Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:04:03.968Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:04:03.968Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:04:03.968Z] [worker-~diagnostic~-60190778-b123-467e-8f2f-f4dc1a622737]: Assigning socketPath: /tmp/fire_emu_4745.sock
+[debug] [2020-03-23T09:04:03.968Z] [worker-~diagnostic~-60190778-b123-467e-8f2f-f4dc1a622737]: BUSY
+[debug] [2020-03-23T09:04:03.974Z] [worker-~diagnostic~-42707c29-7638-4d2a-af27-da4e08dead93]: exited
+[debug] [2020-03-23T09:04:03.980Z] [worker-~diagnostic~-42707c29-7638-4d2a-af27-da4e08dead93]: FINISHED
+[debug] [2020-03-23T09:04:03.980Z] [worker-app-9b9c7a73-a97b-4c14-bb21-16083021bcde]: exited
+[debug] [2020-03-23T09:04:03.980Z] [worker-app-9b9c7a73-a97b-4c14-bb21-16083021bcde]: FINISHED
+[debug] [2020-03-23T09:04:04.406Z] [runtime-status] [4745] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:04:04.410Z] [runtime-status] [4745] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:04:04.413Z] [runtime-status] [4745] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:04:04.417Z] [runtime-status] [4745] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:04:04.425Z] [runtime-status] [4745] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:04:04.826Z] [worker-~diagnostic~-60190778-b123-467e-8f2f-f4dc1a622737]: IDLE
+[debug] [2020-03-23T09:04:29.907Z] File /home/lennert/Documents/thesis_site/functions/views/register.ejs changed, reloading triggers
+[debug] [2020-03-23T09:04:30.908Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:04:30.908Z] [worker-~diagnostic~-60190778-b123-467e-8f2f-f4dc1a622737]: FINISHING
+[debug] [2020-03-23T09:04:30.911Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:04:30.911Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T09:04:30.919Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:04:30.919Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:04:30.919Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:04:30.919Z] [worker-~diagnostic~-6a4e5014-ce29-4c6b-9889-18af2f650689]: Assigning socketPath: /tmp/fire_emu_4765.sock
+[debug] [2020-03-23T09:04:30.919Z] [worker-~diagnostic~-6a4e5014-ce29-4c6b-9889-18af2f650689]: BUSY
+[debug] [2020-03-23T09:04:30.923Z] [worker-~diagnostic~-60190778-b123-467e-8f2f-f4dc1a622737]: exited
+[debug] [2020-03-23T09:04:30.923Z] [worker-~diagnostic~-60190778-b123-467e-8f2f-f4dc1a622737]: FINISHED
+[debug] [2020-03-23T09:04:31.333Z] [runtime-status] [4765] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:04:31.341Z] [runtime-status] [4765] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:04:31.352Z] [runtime-status] [4765] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:04:31.360Z] [runtime-status] [4765] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:04:31.368Z] [runtime-status] [4765] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:04:31.820Z] [worker-~diagnostic~-6a4e5014-ce29-4c6b-9889-18af2f650689]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:04:35.728Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:04:35.729Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:04:35.729Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:04:35.729Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:04:35.734Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:04:35.735Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:04:35.735Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:04:35.735Z] [worker-app-927671cb-e9aa-4a5a-a9c4-17fb85b091df]: Assigning socketPath: /tmp/fire_emu_4781.sock
+[debug] [2020-03-23T09:04:35.735Z] [worker-app-927671cb-e9aa-4a5a-a9c4-17fb85b091df]: BUSY
+[debug] [2020-03-23T09:04:36.113Z] [runtime-status] [4781] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:04:36.135Z] [runtime-status] [4781] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:04:36.148Z] [runtime-status] [4781] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:04:36.154Z] [runtime-status] [4781] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:04:36.159Z] [runtime-status] [4781] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:04:36.666Z] [runtime-status] [4781] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:04:36.671Z] [runtime-status] [4781] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:04:36.678Z] [runtime-status] [4781] Running app in mode HTTPS
+[debug] [2020-03-23T09:04:36.680Z] [runtime-status] [4781] Attempting to listen to socketPath: /tmp/fire_emu_4781.sock
+[debug] [2020-03-23T09:04:36.686Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:04:36.713Z] [runtime-status] [4781] Ephemeral server handling GET request
+[debug] [2020-03-23T09:04:36.761Z] [runtime-status] [4781] Ephemeral server survived.
+[info] >  ReferenceError: /home/lennert/Documents/thesis_site/functions/views/register.ejs:98
+[info] >      96|       <div class="field">
+[info] >      97|         <p class="control has-icons-left has-icons-right">
+[info] >   >> 98|           <input class= <%-inputEmail%> type="email" name="email" placeholder="Email" required>
+[info] >      99|           <span class="icon is-small is-left">
+[info] >      100|       <i class= "fas fa-chack"></i>
+[info] >      101|     </span>
+[info] >  
+[info] >  inputEmail is not defined
+[info] >      at eval (/home/lennert/Documents/thesis_site/functions/views/register.ejs:10:16)
+[info] >      at register (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:656:17)
+[info] >      at tryHandleCache (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:254:36)
+[info] >      at View.exports.renderFile [as engine] (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:459:10)
+[info] >      at View.render (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/view.js:135:8)
+[info] >      at tryRender (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/application.js:640:10)
+[info] >      at Function.render (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/application.js:592:3)
+[info] >      at ServerResponse.render (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/response.js:1012:7)
+[info] >      at /home/lennert/Documents/thesis_site/functions/index.js:36:7
+[info] >      at Layer.handle [as handle_request] (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/router/layer.js:95:5)
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:04:36.833Z] [worker-app-927671cb-e9aa-4a5a-a9c4-17fb85b091df]: IDLE
+[debug] [2020-03-23T09:04:36.833Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T09:05:49.551Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T09:05:50.552Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:05:50.552Z] [worker-~diagnostic~-6a4e5014-ce29-4c6b-9889-18af2f650689]: FINISHING
+[debug] [2020-03-23T09:05:50.559Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T09:05:50.559Z] [worker-app-927671cb-e9aa-4a5a-a9c4-17fb85b091df]: FINISHING
+[debug] [2020-03-23T09:05:50.572Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:05:50.572Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:05:50.572Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:05:50.574Z] [worker-~diagnostic~-3759ebec-da9d-454d-8de3-6c5855a9b605]: Assigning socketPath: /tmp/fire_emu_4803.sock
+[debug] [2020-03-23T09:05:50.574Z] [worker-~diagnostic~-3759ebec-da9d-454d-8de3-6c5855a9b605]: BUSY
+[debug] [2020-03-23T09:05:50.580Z] [worker-~diagnostic~-6a4e5014-ce29-4c6b-9889-18af2f650689]: exited
+[debug] [2020-03-23T09:05:50.580Z] [worker-~diagnostic~-6a4e5014-ce29-4c6b-9889-18af2f650689]: FINISHED
+[debug] [2020-03-23T09:05:50.580Z] [worker-app-927671cb-e9aa-4a5a-a9c4-17fb85b091df]: exited
+[debug] [2020-03-23T09:05:50.580Z] [worker-app-927671cb-e9aa-4a5a-a9c4-17fb85b091df]: FINISHED
+[debug] [2020-03-23T09:05:50.998Z] [runtime-status] [4803] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:05:51.006Z] [runtime-status] [4803] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:05:51.010Z] [runtime-status] [4803] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:05:51.015Z] [runtime-status] [4803] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:05:51.020Z] [runtime-status] [4803] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:05:51.686Z] [worker-~diagnostic~-3759ebec-da9d-454d-8de3-6c5855a9b605]: IDLE
+[debug] [2020-03-23T09:06:06.458Z] File /home/lennert/Documents/thesis_site/functions/views/register.ejs changed, reloading triggers
+[debug] [2020-03-23T09:06:07.459Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:06:07.459Z] [worker-~diagnostic~-3759ebec-da9d-454d-8de3-6c5855a9b605]: FINISHING
+[debug] [2020-03-23T09:06:07.459Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:06:07.459Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T09:06:07.471Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:06:07.472Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:06:07.472Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:06:07.472Z] [worker-~diagnostic~-5ca48e52-56ca-4432-a27a-6f517fe141de]: Assigning socketPath: /tmp/fire_emu_4820.sock
+[debug] [2020-03-23T09:06:07.472Z] [worker-~diagnostic~-5ca48e52-56ca-4432-a27a-6f517fe141de]: BUSY
+[debug] [2020-03-23T09:06:07.486Z] [worker-~diagnostic~-3759ebec-da9d-454d-8de3-6c5855a9b605]: exited
+[debug] [2020-03-23T09:06:07.492Z] [worker-~diagnostic~-3759ebec-da9d-454d-8de3-6c5855a9b605]: FINISHED
+[debug] [2020-03-23T09:06:07.737Z] [runtime-status] [4820] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:06:07.742Z] [runtime-status] [4820] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:06:07.747Z] [runtime-status] [4820] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:06:07.750Z] [runtime-status] [4820] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:06:07.753Z] [runtime-status] [4820] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:06:08.239Z] [worker-~diagnostic~-5ca48e52-56ca-4432-a27a-6f517fe141de]: IDLE
+[debug] [2020-03-23T09:06:12.936Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T09:06:13.936Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:06:13.936Z] [worker-~diagnostic~-5ca48e52-56ca-4432-a27a-6f517fe141de]: FINISHING
+[debug] [2020-03-23T09:06:13.943Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:06:13.954Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:06:13.955Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:06:13.955Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:06:13.956Z] [worker-~diagnostic~-5cf049ce-3ae3-49cf-a0ef-37292415a8e9]: Assigning socketPath: /tmp/fire_emu_4837.sock
+[debug] [2020-03-23T09:06:13.956Z] [worker-~diagnostic~-5cf049ce-3ae3-49cf-a0ef-37292415a8e9]: BUSY
+[debug] [2020-03-23T09:06:13.958Z] [worker-~diagnostic~-5ca48e52-56ca-4432-a27a-6f517fe141de]: exited
+[debug] [2020-03-23T09:06:13.958Z] [worker-~diagnostic~-5ca48e52-56ca-4432-a27a-6f517fe141de]: FINISHED
+[debug] [2020-03-23T09:06:14.178Z] [runtime-status] [4837] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:06:14.181Z] [runtime-status] [4837] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:06:14.185Z] [runtime-status] [4837] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:06:14.188Z] [runtime-status] [4837] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:06:14.191Z] [runtime-status] [4837] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:06:14.690Z] [worker-~diagnostic~-5cf049ce-3ae3-49cf-a0ef-37292415a8e9]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:06:17.176Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:06:17.176Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:06:17.176Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:06:17.176Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:06:17.185Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:06:17.188Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:06:17.188Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:06:17.188Z] [worker-app-c25525ee-e48b-409e-87c7-8bca1040788d]: Assigning socketPath: /tmp/fire_emu_4853.sock
+[debug] [2020-03-23T09:06:17.188Z] [worker-app-c25525ee-e48b-409e-87c7-8bca1040788d]: BUSY
+[debug] [2020-03-23T09:06:17.559Z] [runtime-status] [4853] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:06:17.569Z] [runtime-status] [4853] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:06:17.574Z] [runtime-status] [4853] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:06:17.578Z] [runtime-status] [4853] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:06:17.583Z] [runtime-status] [4853] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:06:18.164Z] [runtime-status] [4853] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:06:18.178Z] [runtime-status] [4853] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:06:18.178Z] [runtime-status] [4853] Running app in mode HTTPS
+[debug] [2020-03-23T09:06:18.188Z] [runtime-status] [4853] Attempting to listen to socketPath: /tmp/fire_emu_4853.sock
+[debug] [2020-03-23T09:06:18.195Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:06:18.218Z] [runtime-status] [4853] Ephemeral server handling GET request
+[debug] [2020-03-23T09:06:18.251Z] [runtime-status] [4853] Ephemeral server survived.
+[info] >  Error: Could not find matching close tag for "<%-".
+[info] >      at /home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:705:19
+[info] >      at Array.forEach (<anonymous>)
+[info] >      at Template.generateSource (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:695:15)
+[info] >      at Template.compile (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:548:12)
+[info] >      at Object.compile (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:366:16)
+[info] >      at handleCache (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:215:18)
+[info] >      at tryHandleCache (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:254:16)
+[info] >      at View.exports.renderFile [as engine] (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:459:10)
+[info] >      at View.render (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/view.js:135:8)
+[info] >      at tryRender (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/application.js:640:10)
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:06:18.327Z] [worker-app-c25525ee-e48b-409e-87c7-8bca1040788d]: IDLE
+[debug] [2020-03-23T09:06:18.327Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T09:06:32.776Z] File /home/lennert/Documents/thesis_site/functions/views/register.ejs changed, reloading triggers
+[debug] [2020-03-23T09:06:33.810Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:06:33.810Z] [worker-~diagnostic~-5cf049ce-3ae3-49cf-a0ef-37292415a8e9]: FINISHING
+[debug] [2020-03-23T09:06:33.817Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T09:06:33.817Z] [worker-app-c25525ee-e48b-409e-87c7-8bca1040788d]: FINISHING
+[debug] [2020-03-23T09:06:33.832Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:06:33.833Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:06:33.833Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:06:33.833Z] [worker-~diagnostic~-86a56cc5-8aab-4af5-8851-425d545480c6]: Assigning socketPath: /tmp/fire_emu_4874.sock
+[debug] [2020-03-23T09:06:33.833Z] [worker-~diagnostic~-86a56cc5-8aab-4af5-8851-425d545480c6]: BUSY
+[debug] [2020-03-23T09:06:33.840Z] [worker-~diagnostic~-5cf049ce-3ae3-49cf-a0ef-37292415a8e9]: exited
+[debug] [2020-03-23T09:06:33.840Z] [worker-~diagnostic~-5cf049ce-3ae3-49cf-a0ef-37292415a8e9]: FINISHED
+[debug] [2020-03-23T09:06:33.853Z] [worker-app-c25525ee-e48b-409e-87c7-8bca1040788d]: exited
+[debug] [2020-03-23T09:06:33.853Z] [worker-app-c25525ee-e48b-409e-87c7-8bca1040788d]: FINISHED
+[debug] [2020-03-23T09:06:34.179Z] [runtime-status] [4874] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:06:34.183Z] [runtime-status] [4874] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:06:34.186Z] [runtime-status] [4874] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:06:34.191Z] [runtime-status] [4874] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:06:34.194Z] [runtime-status] [4874] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:06:34.552Z] [worker-~diagnostic~-86a56cc5-8aab-4af5-8851-425d545480c6]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:06:36.550Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:06:36.553Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:06:36.553Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:06:36.553Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:06:36.553Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T09:06:36.567Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:06:36.567Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:06:36.567Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:06:36.567Z] [worker-app-31c36834-1895-4090-8f72-35df733fcc31]: Assigning socketPath: /tmp/fire_emu_4891.sock
+[debug] [2020-03-23T09:06:36.567Z] [worker-app-31c36834-1895-4090-8f72-35df733fcc31]: BUSY
+[debug] [2020-03-23T09:06:36.929Z] [runtime-status] [4891] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:06:36.933Z] [runtime-status] [4891] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:06:36.941Z] [runtime-status] [4891] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:06:36.944Z] [runtime-status] [4891] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:06:36.949Z] [runtime-status] [4891] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:06:37.437Z] [runtime-status] [4891] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:06:37.445Z] [runtime-status] [4891] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:06:37.455Z] [runtime-status] [4891] Running app in mode HTTPS
+[debug] [2020-03-23T09:06:37.465Z] [runtime-status] [4891] Attempting to listen to socketPath: /tmp/fire_emu_4891.sock
+[debug] [2020-03-23T09:06:37.469Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:06:37.514Z] [runtime-status] [4891] Ephemeral server handling GET request
+[debug] [2020-03-23T09:06:37.541Z] [runtime-status] [4891] Ephemeral server survived.
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:06:37.557Z] [worker-app-31c36834-1895-4090-8f72-35df733fcc31]: IDLE
+[debug] [2020-03-23T09:06:37.557Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T09:07:41.837Z] File /home/lennert/Documents/thesis_site/functions/views/register.ejs changed, reloading triggers
+[debug] [2020-03-23T09:07:42.838Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:07:42.838Z] [worker-~diagnostic~-86a56cc5-8aab-4af5-8851-425d545480c6]: FINISHING
+[debug] [2020-03-23T09:07:42.844Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T09:07:42.844Z] [worker-app-31c36834-1895-4090-8f72-35df733fcc31]: FINISHING
+[debug] [2020-03-23T09:07:42.854Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:07:42.854Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:07:42.854Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:07:42.854Z] [worker-~diagnostic~-e80feff6-1cbb-49c3-9186-d909d73dd76c]: Assigning socketPath: /tmp/fire_emu_4931.sock
+[debug] [2020-03-23T09:07:42.854Z] [worker-~diagnostic~-e80feff6-1cbb-49c3-9186-d909d73dd76c]: BUSY
+[debug] [2020-03-23T09:07:42.856Z] [worker-~diagnostic~-86a56cc5-8aab-4af5-8851-425d545480c6]: exited
+[debug] [2020-03-23T09:07:42.857Z] [worker-~diagnostic~-86a56cc5-8aab-4af5-8851-425d545480c6]: FINISHED
+[debug] [2020-03-23T09:07:42.857Z] [worker-app-31c36834-1895-4090-8f72-35df733fcc31]: exited
+[debug] [2020-03-23T09:07:42.857Z] [worker-app-31c36834-1895-4090-8f72-35df733fcc31]: FINISHED
+[debug] [2020-03-23T09:07:43.095Z] [runtime-status] [4931] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:07:43.099Z] [runtime-status] [4931] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:07:43.110Z] [runtime-status] [4931] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:07:43.114Z] [runtime-status] [4931] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:07:43.121Z] [runtime-status] [4931] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:07:43.605Z] [worker-~diagnostic~-e80feff6-1cbb-49c3-9186-d909d73dd76c]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:07:56.745Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:07:56.745Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:07:56.746Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:07:56.746Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:07:56.746Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T09:07:56.758Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:07:56.759Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:07:56.759Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:07:56.759Z] [worker-app-caf40104-4946-42d8-8b58-85fef66ed43c]: Assigning socketPath: /tmp/fire_emu_4946.sock
+[debug] [2020-03-23T09:07:56.759Z] [worker-app-caf40104-4946-42d8-8b58-85fef66ed43c]: BUSY
+[debug] [2020-03-23T09:07:57.133Z] [runtime-status] [4946] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:07:57.141Z] [runtime-status] [4946] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:07:57.157Z] [runtime-status] [4946] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:07:57.168Z] [runtime-status] [4946] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:07:57.172Z] [runtime-status] [4946] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:07:57.826Z] [runtime-status] [4946] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:07:57.837Z] [runtime-status] [4946] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:07:57.838Z] [runtime-status] [4946] Running app in mode HTTPS
+[debug] [2020-03-23T09:07:57.847Z] [runtime-status] [4946] Attempting to listen to socketPath: /tmp/fire_emu_4946.sock
+[debug] [2020-03-23T09:07:57.854Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:07:57.871Z] [runtime-status] [4946] Ephemeral server handling GET request
+[debug] [2020-03-23T09:07:57.900Z] [runtime-status] [4946] Ephemeral server survived.
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:07:57.969Z] [worker-app-caf40104-4946-42d8-8b58-85fef66ed43c]: IDLE
+[debug] [2020-03-23T09:07:57.969Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T09:18:27.882Z] File /home/lennert/Documents/thesis_site/functions/views/register.ejs changed, reloading triggers
+[debug] [2020-03-23T09:18:28.883Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:18:28.884Z] [worker-~diagnostic~-e80feff6-1cbb-49c3-9186-d909d73dd76c]: FINISHING
+[debug] [2020-03-23T09:18:28.888Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T09:18:28.889Z] [worker-app-caf40104-4946-42d8-8b58-85fef66ed43c]: FINISHING
+[debug] [2020-03-23T09:18:28.899Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:18:28.900Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:18:28.900Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:18:28.900Z] [worker-~diagnostic~-06e6ac24-e570-4c2e-ae0c-d15dddccb165]: Assigning socketPath: /tmp/fire_emu_5012.sock
+[debug] [2020-03-23T09:18:28.900Z] [worker-~diagnostic~-06e6ac24-e570-4c2e-ae0c-d15dddccb165]: BUSY
+[debug] [2020-03-23T09:18:28.905Z] [worker-~diagnostic~-e80feff6-1cbb-49c3-9186-d909d73dd76c]: exited
+[debug] [2020-03-23T09:18:28.905Z] [worker-~diagnostic~-e80feff6-1cbb-49c3-9186-d909d73dd76c]: FINISHED
+[debug] [2020-03-23T09:18:28.905Z] [worker-app-caf40104-4946-42d8-8b58-85fef66ed43c]: exited
+[debug] [2020-03-23T09:18:28.905Z] [worker-app-caf40104-4946-42d8-8b58-85fef66ed43c]: FINISHED
+[debug] [2020-03-23T09:18:29.139Z] [runtime-status] [5012] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:18:29.144Z] [runtime-status] [5012] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:18:29.149Z] [runtime-status] [5012] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:18:29.152Z] [runtime-status] [5012] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:18:29.155Z] [runtime-status] [5012] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:18:29.634Z] [worker-~diagnostic~-06e6ac24-e570-4c2e-ae0c-d15dddccb165]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:18:34.041Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:18:34.042Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:18:34.042Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:18:34.042Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:18:34.043Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T09:18:34.058Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:18:34.059Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:18:34.059Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:18:34.059Z] [worker-app-8c6f1666-b921-4c22-85be-ef7f396ed438]: Assigning socketPath: /tmp/fire_emu_5028.sock
+[debug] [2020-03-23T09:18:34.059Z] [worker-app-8c6f1666-b921-4c22-85be-ef7f396ed438]: BUSY
+[debug] [2020-03-23T09:18:34.477Z] [runtime-status] [5028] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:18:34.483Z] [runtime-status] [5028] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:18:34.491Z] [runtime-status] [5028] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:18:34.500Z] [runtime-status] [5028] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:18:34.507Z] [runtime-status] [5028] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:18:35.173Z] [runtime-status] [5028] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:18:35.186Z] [runtime-status] [5028] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:18:35.188Z] [runtime-status] [5028] Running app in mode HTTPS
+[debug] [2020-03-23T09:18:35.195Z] [runtime-status] [5028] Attempting to listen to socketPath: /tmp/fire_emu_5028.sock
+[debug] [2020-03-23T09:18:35.202Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:18:35.220Z] [runtime-status] [5028] Ephemeral server handling GET request
+[debug] [2020-03-23T09:18:35.255Z] [runtime-status] [5028] Ephemeral server survived.
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:18:35.329Z] [worker-app-8c6f1666-b921-4c22-85be-ef7f396ed438]: IDLE
+[debug] [2020-03-23T09:18:35.329Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T09:19:00.929Z] File /home/lennert/Documents/thesis_site/functions/views/register.ejs changed, reloading triggers
+[debug] [2020-03-23T09:19:01.929Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:19:01.930Z] [worker-~diagnostic~-06e6ac24-e570-4c2e-ae0c-d15dddccb165]: FINISHING
+[debug] [2020-03-23T09:19:01.942Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T09:19:01.942Z] [worker-app-8c6f1666-b921-4c22-85be-ef7f396ed438]: FINISHING
+[debug] [2020-03-23T09:19:01.964Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:19:01.964Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:19:01.965Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:19:01.965Z] [worker-~diagnostic~-b7906775-bf94-4864-b24a-d8412ff6562e]: Assigning socketPath: /tmp/fire_emu_5058.sock
+[debug] [2020-03-23T09:19:01.965Z] [worker-~diagnostic~-b7906775-bf94-4864-b24a-d8412ff6562e]: BUSY
+[debug] [2020-03-23T09:19:01.977Z] [worker-~diagnostic~-06e6ac24-e570-4c2e-ae0c-d15dddccb165]: exited
+[debug] [2020-03-23T09:19:01.978Z] [worker-~diagnostic~-06e6ac24-e570-4c2e-ae0c-d15dddccb165]: FINISHED
+[debug] [2020-03-23T09:19:01.978Z] [worker-app-8c6f1666-b921-4c22-85be-ef7f396ed438]: exited
+[debug] [2020-03-23T09:19:01.984Z] [worker-app-8c6f1666-b921-4c22-85be-ef7f396ed438]: FINISHED
+[debug] [2020-03-23T09:19:02.510Z] [runtime-status] [5058] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:19:02.515Z] [runtime-status] [5058] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:19:02.526Z] [runtime-status] [5058] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:19:02.533Z] [runtime-status] [5058] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:19:02.537Z] [runtime-status] [5058] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:19:03.091Z] [worker-~diagnostic~-b7906775-bf94-4864-b24a-d8412ff6562e]: IDLE
+[debug] [2020-03-23T09:19:37.370Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T09:19:38.371Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:19:38.371Z] [worker-~diagnostic~-b7906775-bf94-4864-b24a-d8412ff6562e]: FINISHING
+[debug] [2020-03-23T09:19:38.371Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:19:38.371Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T09:19:38.384Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:19:38.387Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:19:38.387Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:19:38.387Z] [worker-~diagnostic~-372dc65d-dd30-46ca-a2f6-2db227cc6cd7]: Assigning socketPath: /tmp/fire_emu_5076.sock
+[debug] [2020-03-23T09:19:38.388Z] [worker-~diagnostic~-372dc65d-dd30-46ca-a2f6-2db227cc6cd7]: BUSY
+[debug] [2020-03-23T09:19:38.397Z] [worker-~diagnostic~-b7906775-bf94-4864-b24a-d8412ff6562e]: exited
+[debug] [2020-03-23T09:19:38.398Z] [worker-~diagnostic~-b7906775-bf94-4864-b24a-d8412ff6562e]: FINISHED
+[debug] [2020-03-23T09:19:38.825Z] [runtime-status] [5076] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:19:38.830Z] [runtime-status] [5076] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:19:38.837Z] [runtime-status] [5076] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:19:38.841Z] [runtime-status] [5076] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:19:38.844Z] [runtime-status] [5076] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:19:39.390Z] [worker-~diagnostic~-372dc65d-dd30-46ca-a2f6-2db227cc6cd7]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:19:41.800Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:19:41.804Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:19:41.804Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:19:41.804Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:19:41.814Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:19:41.815Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:19:41.815Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:19:41.815Z] [worker-app-2b5cea72-a97b-4b70-944e-4f6945e378ee]: Assigning socketPath: /tmp/fire_emu_5095.sock
+[debug] [2020-03-23T09:19:41.815Z] [worker-app-2b5cea72-a97b-4b70-944e-4f6945e378ee]: BUSY
+[debug] [2020-03-23T09:19:42.228Z] [runtime-status] [5095] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:19:42.239Z] [runtime-status] [5095] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:19:42.248Z] [runtime-status] [5095] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:19:42.254Z] [runtime-status] [5095] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:19:42.258Z] [runtime-status] [5095] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:19:42.738Z] [runtime-status] [5095] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:19:42.744Z] [runtime-status] [5095] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:19:42.757Z] [runtime-status] [5095] Running app in mode HTTPS
+[debug] [2020-03-23T09:19:42.758Z] [runtime-status] [5095] Attempting to listen to socketPath: /tmp/fire_emu_5095.sock
+[debug] [2020-03-23T09:19:42.768Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:19:42.822Z] [runtime-status] [5095] Ephemeral server handling GET request
+[debug] [2020-03-23T09:19:42.849Z] [runtime-status] [5095] Ephemeral server survived.
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:19:42.868Z] [worker-app-2b5cea72-a97b-4b70-944e-4f6945e378ee]: IDLE
+[debug] [2020-03-23T09:19:42.871Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T09:20:03.367Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T09:20:04.368Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:20:04.368Z] [worker-~diagnostic~-372dc65d-dd30-46ca-a2f6-2db227cc6cd7]: FINISHING
+[debug] [2020-03-23T09:20:04.368Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T09:20:04.368Z] [worker-app-2b5cea72-a97b-4b70-944e-4f6945e378ee]: FINISHING
+[debug] [2020-03-23T09:20:04.392Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:20:04.392Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:20:04.392Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:20:04.392Z] [worker-~diagnostic~-bda0dd06-f555-4b2e-bb65-36c3670efbac]: Assigning socketPath: /tmp/fire_emu_5118.sock
+[debug] [2020-03-23T09:20:04.392Z] [worker-~diagnostic~-bda0dd06-f555-4b2e-bb65-36c3670efbac]: BUSY
+[debug] [2020-03-23T09:20:04.396Z] [worker-~diagnostic~-372dc65d-dd30-46ca-a2f6-2db227cc6cd7]: exited
+[debug] [2020-03-23T09:20:04.396Z] [worker-~diagnostic~-372dc65d-dd30-46ca-a2f6-2db227cc6cd7]: FINISHED
+[debug] [2020-03-23T09:20:04.407Z] [worker-app-2b5cea72-a97b-4b70-944e-4f6945e378ee]: exited
+[debug] [2020-03-23T09:20:04.407Z] [worker-app-2b5cea72-a97b-4b70-944e-4f6945e378ee]: FINISHED
+[debug] [2020-03-23T09:20:04.801Z] [runtime-status] [5118] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:20:04.813Z] [runtime-status] [5118] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:20:04.818Z] [runtime-status] [5118] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:20:04.828Z] [runtime-status] [5118] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:20:04.831Z] [runtime-status] [5118] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:20:05.225Z] [worker-~diagnostic~-bda0dd06-f555-4b2e-bb65-36c3670efbac]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:20:14.858Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:20:14.859Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:20:14.859Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:20:14.860Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:20:14.860Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T09:20:14.875Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:20:14.875Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:20:14.875Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:20:14.876Z] [worker-app-394665f1-6fd1-4fbe-a0dc-0b3fec7459cb]: Assigning socketPath: /tmp/fire_emu_5135.sock
+[debug] [2020-03-23T09:20:14.876Z] [worker-app-394665f1-6fd1-4fbe-a0dc-0b3fec7459cb]: BUSY
+[debug] [2020-03-23T09:20:15.339Z] [runtime-status] [5135] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:20:15.344Z] [runtime-status] [5135] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:20:15.350Z] [runtime-status] [5135] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:20:15.354Z] [runtime-status] [5135] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:20:15.357Z] [runtime-status] [5135] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:20:15.946Z] [runtime-status] [5135] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:20:15.969Z] [runtime-status] [5135] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:20:15.978Z] [runtime-status] [5135] Running app in mode HTTPS
+[debug] [2020-03-23T09:20:15.995Z] [runtime-status] [5135] Attempting to listen to socketPath: /tmp/fire_emu_5135.sock
+[debug] [2020-03-23T09:20:16.009Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:20:16.034Z] [runtime-status] [5135] Ephemeral server handling GET request
+[debug] [2020-03-23T09:20:16.114Z] [runtime-status] [5135] Ephemeral server survived.
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:20:16.200Z] [worker-app-394665f1-6fd1-4fbe-a0dc-0b3fec7459cb]: IDLE
+[debug] [2020-03-23T09:20:16.200Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T09:20:36.845Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T09:20:37.845Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:20:37.846Z] [worker-~diagnostic~-bda0dd06-f555-4b2e-bb65-36c3670efbac]: FINISHING
+[debug] [2020-03-23T09:20:37.846Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T09:20:37.846Z] [worker-app-394665f1-6fd1-4fbe-a0dc-0b3fec7459cb]: FINISHING
+[debug] [2020-03-23T09:20:37.872Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:20:37.872Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:20:37.872Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:20:37.872Z] [worker-~diagnostic~-268e4beb-af7e-4614-a94e-b2feb6026f07]: Assigning socketPath: /tmp/fire_emu_5156.sock
+[debug] [2020-03-23T09:20:37.875Z] [worker-~diagnostic~-268e4beb-af7e-4614-a94e-b2feb6026f07]: BUSY
+[debug] [2020-03-23T09:20:37.885Z] [worker-~diagnostic~-bda0dd06-f555-4b2e-bb65-36c3670efbac]: exited
+[debug] [2020-03-23T09:20:37.885Z] [worker-~diagnostic~-bda0dd06-f555-4b2e-bb65-36c3670efbac]: FINISHED
+[debug] [2020-03-23T09:20:37.896Z] [worker-app-394665f1-6fd1-4fbe-a0dc-0b3fec7459cb]: exited
+[debug] [2020-03-23T09:20:37.896Z] [worker-app-394665f1-6fd1-4fbe-a0dc-0b3fec7459cb]: FINISHED
+[debug] [2020-03-23T09:20:38.448Z] [runtime-status] [5156] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:20:38.457Z] [runtime-status] [5156] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:20:38.459Z] [runtime-status] [5156] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:20:38.461Z] [runtime-status] [5156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:20:38.467Z] [runtime-status] [5156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:20:39.378Z] [worker-~diagnostic~-268e4beb-af7e-4614-a94e-b2feb6026f07]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:20:39.943Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:20:39.943Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:20:39.944Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:20:39.944Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:20:39.944Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T09:20:39.956Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:20:39.957Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:20:39.957Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:20:39.957Z] [worker-app-6da9f36b-eed0-467c-a7f8-df6e1ea1cd0d]: Assigning socketPath: /tmp/fire_emu_5173.sock
+[debug] [2020-03-23T09:20:39.957Z] [worker-app-6da9f36b-eed0-467c-a7f8-df6e1ea1cd0d]: BUSY
+[debug] [2020-03-23T09:20:40.360Z] [runtime-status] [5173] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:20:40.364Z] [runtime-status] [5173] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:20:40.372Z] [runtime-status] [5173] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:20:40.379Z] [runtime-status] [5173] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:20:40.382Z] [runtime-status] [5173] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:20:40.871Z] [runtime-status] [5173] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:20:40.878Z] [runtime-status] [5173] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:20:40.881Z] [runtime-status] [5173] Running app in mode HTTPS
+[debug] [2020-03-23T09:20:40.891Z] [runtime-status] [5173] Attempting to listen to socketPath: /tmp/fire_emu_5173.sock
+[debug] [2020-03-23T09:20:40.895Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:20:40.918Z] [runtime-status] [5173] Ephemeral server handling GET request
+[debug] [2020-03-23T09:20:40.952Z] [runtime-status] [5173] Ephemeral server survived.
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:20:40.964Z] [worker-app-6da9f36b-eed0-467c-a7f8-df6e1ea1cd0d]: IDLE
+[debug] [2020-03-23T09:20:40.964Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T09:27:38.554Z] File /home/lennert/Documents/thesis_site/functions/views/register.ejs changed, reloading triggers
+[debug] [2020-03-23T09:27:39.555Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:27:39.556Z] [worker-~diagnostic~-268e4beb-af7e-4614-a94e-b2feb6026f07]: FINISHING
+[debug] [2020-03-23T09:27:39.560Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T09:27:39.561Z] [worker-app-6da9f36b-eed0-467c-a7f8-df6e1ea1cd0d]: FINISHING
+[debug] [2020-03-23T09:27:39.584Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:27:39.584Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:27:39.584Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:27:39.584Z] [worker-~diagnostic~-d5ea20b3-8e08-4b66-bc77-20e674b28076]: Assigning socketPath: /tmp/fire_emu_5227.sock
+[debug] [2020-03-23T09:27:39.584Z] [worker-~diagnostic~-d5ea20b3-8e08-4b66-bc77-20e674b28076]: BUSY
+[debug] [2020-03-23T09:27:39.589Z] [worker-~diagnostic~-268e4beb-af7e-4614-a94e-b2feb6026f07]: exited
+[debug] [2020-03-23T09:27:39.589Z] [worker-~diagnostic~-268e4beb-af7e-4614-a94e-b2feb6026f07]: FINISHED
+[debug] [2020-03-23T09:27:39.589Z] [worker-app-6da9f36b-eed0-467c-a7f8-df6e1ea1cd0d]: exited
+[debug] [2020-03-23T09:27:39.589Z] [worker-app-6da9f36b-eed0-467c-a7f8-df6e1ea1cd0d]: FINISHED
+[debug] [2020-03-23T09:27:39.927Z] [runtime-status] [5227] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:27:39.931Z] [runtime-status] [5227] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:27:39.936Z] [runtime-status] [5227] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:27:39.942Z] [runtime-status] [5227] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:27:39.945Z] [runtime-status] [5227] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:27:40.434Z] [worker-~diagnostic~-d5ea20b3-8e08-4b66-bc77-20e674b28076]: IDLE
+[debug] [2020-03-23T09:28:19.743Z] File /home/lennert/Documents/thesis_site/functions/views/register.ejs changed, reloading triggers
+[debug] [2020-03-23T09:28:20.744Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:28:20.745Z] [worker-~diagnostic~-d5ea20b3-8e08-4b66-bc77-20e674b28076]: FINISHING
+[debug] [2020-03-23T09:28:20.750Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:28:20.750Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T09:28:20.761Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:28:20.761Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:28:20.761Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:28:20.762Z] [worker-~diagnostic~-a31cc1ba-2b03-43e0-9c2b-d0b466f1b4e3]: Assigning socketPath: /tmp/fire_emu_5246.sock
+[debug] [2020-03-23T09:28:20.762Z] [worker-~diagnostic~-a31cc1ba-2b03-43e0-9c2b-d0b466f1b4e3]: BUSY
+[debug] [2020-03-23T09:28:20.766Z] [worker-~diagnostic~-d5ea20b3-8e08-4b66-bc77-20e674b28076]: exited
+[debug] [2020-03-23T09:28:20.766Z] [worker-~diagnostic~-d5ea20b3-8e08-4b66-bc77-20e674b28076]: FINISHED
+[debug] [2020-03-23T09:28:21.010Z] [runtime-status] [5246] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:28:21.014Z] [runtime-status] [5246] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:28:21.018Z] [runtime-status] [5246] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:28:21.022Z] [runtime-status] [5246] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:28:21.025Z] [runtime-status] [5246] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:28:21.402Z] [worker-~diagnostic~-a31cc1ba-2b03-43e0-9c2b-d0b466f1b4e3]: IDLE
+[debug] [2020-03-23T09:29:10.501Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T09:29:11.502Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:29:11.502Z] [worker-~diagnostic~-a31cc1ba-2b03-43e0-9c2b-d0b466f1b4e3]: FINISHING
+[debug] [2020-03-23T09:29:11.507Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:29:11.512Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:29:11.512Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:29:11.512Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:29:11.513Z] [worker-~diagnostic~-e048f580-389b-4fa8-b01b-34814125a9df]: Assigning socketPath: /tmp/fire_emu_5268.sock
+[debug] [2020-03-23T09:29:11.513Z] [worker-~diagnostic~-e048f580-389b-4fa8-b01b-34814125a9df]: BUSY
+[debug] [2020-03-23T09:29:11.514Z] [worker-~diagnostic~-a31cc1ba-2b03-43e0-9c2b-d0b466f1b4e3]: exited
+[debug] [2020-03-23T09:29:11.515Z] [worker-~diagnostic~-a31cc1ba-2b03-43e0-9c2b-d0b466f1b4e3]: FINISHED
+[debug] [2020-03-23T09:29:11.905Z] [runtime-status] [5268] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:29:11.910Z] [runtime-status] [5268] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:29:11.930Z] [runtime-status] [5268] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:29:11.931Z] [runtime-status] [5268] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:29:11.931Z] [runtime-status] [5268] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:29:12.487Z] [worker-~diagnostic~-e048f580-389b-4fa8-b01b-34814125a9df]: IDLE
+[debug] [2020-03-23T09:30:27.962Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T09:30:28.963Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:30:28.964Z] [worker-~diagnostic~-e048f580-389b-4fa8-b01b-34814125a9df]: FINISHING
+[debug] [2020-03-23T09:30:28.964Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:30:28.980Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:30:28.981Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:30:28.981Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:30:28.981Z] [worker-~diagnostic~-41faecba-b075-4ce2-a457-d1c6f903e364]: Assigning socketPath: /tmp/fire_emu_5286.sock
+[debug] [2020-03-23T09:30:28.982Z] [worker-~diagnostic~-41faecba-b075-4ce2-a457-d1c6f903e364]: BUSY
+[debug] [2020-03-23T09:30:28.984Z] [worker-~diagnostic~-e048f580-389b-4fa8-b01b-34814125a9df]: exited
+[debug] [2020-03-23T09:30:28.984Z] [worker-~diagnostic~-e048f580-389b-4fa8-b01b-34814125a9df]: FINISHED
+[debug] [2020-03-23T09:30:29.223Z] [runtime-status] [5286] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:30:29.227Z] [runtime-status] [5286] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:30:29.235Z] [runtime-status] [5286] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:30:29.238Z] [runtime-status] [5286] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:30:29.240Z] [runtime-status] [5286] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:30:29.639Z] [worker-~diagnostic~-41faecba-b075-4ce2-a457-d1c6f903e364]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:30:39.971Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:30:39.972Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:30:39.972Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:30:39.972Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:30:39.981Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:30:39.981Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:30:39.981Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:30:39.981Z] [worker-app-94494e4f-a94a-41ee-8f8e-528ccf600a3e]: Assigning socketPath: /tmp/fire_emu_5303.sock
+[debug] [2020-03-23T09:30:39.981Z] [worker-app-94494e4f-a94a-41ee-8f8e-528ccf600a3e]: BUSY
+[debug] [2020-03-23T09:30:40.378Z] [runtime-status] [5303] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:30:40.382Z] [runtime-status] [5303] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:30:40.392Z] [runtime-status] [5303] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:30:40.396Z] [runtime-status] [5303] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:30:40.399Z] [runtime-status] [5303] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:30:40.899Z] [runtime-status] [5303] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:30:40.909Z] [runtime-status] [5303] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:30:40.910Z] [runtime-status] [5303] Running app in mode HTTPS
+[debug] [2020-03-23T09:30:40.917Z] [runtime-status] [5303] Attempting to listen to socketPath: /tmp/fire_emu_5303.sock
+[debug] [2020-03-23T09:30:40.926Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:30:40.943Z] [runtime-status] [5303] Ephemeral server handling GET request
+[debug] [2020-03-23T09:30:40.975Z] [runtime-status] [5303] Ephemeral server survived.
+[info] >  ReferenceError: /home/lennert/Documents/thesis_site/functions/views/register.ejs:115
+[info] >      113|     </span>
+[info] >      114|         <span class="icon is-small is-right">
+[info] >   >> 115|         <i class= <%-inputPasswordIcon%> ></i>
+[info] >      116|     </span>
+[info] >      117|         </p>
+[info] >      118|         <%-inputPasswordText%>
+[info] >  
+[info] >  inputPasswordIcon is not defined
+[info] >      at eval (/home/lennert/Documents/thesis_site/functions/views/register.ejs:22:16)
+[info] >      at register (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:656:17)
+[info] >      at tryHandleCache (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:254:36)
+[info] >      at View.exports.renderFile [as engine] (/home/lennert/Documents/thesis_site/functions/node_modules/ejs/lib/ejs.js:459:10)
+[info] >      at View.render (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/view.js:135:8)
+[info] >      at tryRender (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/application.js:640:10)
+[info] >      at Function.render (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/application.js:592:3)
+[info] >      at ServerResponse.render (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/response.js:1012:7)
+[info] >      at /home/lennert/Documents/thesis_site/functions/index.js:36:7
+[info] >      at Layer.handle [as handle_request] (/home/lennert/Documents/thesis_site/functions/node_modules/express/lib/router/layer.js:95:5)
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:30:41.066Z] [worker-app-94494e4f-a94a-41ee-8f8e-528ccf600a3e]: IDLE
+[debug] [2020-03-23T09:30:41.066Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T09:31:01.516Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T09:31:02.517Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T09:31:02.517Z] [worker-~diagnostic~-41faecba-b075-4ce2-a457-d1c6f903e364]: FINISHING
+[debug] [2020-03-23T09:31:02.517Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T09:31:02.517Z] [worker-app-94494e4f-a94a-41ee-8f8e-528ccf600a3e]: FINISHING
+[debug] [2020-03-23T09:31:02.534Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T09:31:02.535Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T09:31:02.535Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T09:31:02.535Z] [worker-~diagnostic~-e3102a48-e260-409f-994c-e8e70fba16b4]: Assigning socketPath: /tmp/fire_emu_5347.sock
+[debug] [2020-03-23T09:31:02.535Z] [worker-~diagnostic~-e3102a48-e260-409f-994c-e8e70fba16b4]: BUSY
+[debug] [2020-03-23T09:31:02.538Z] [worker-~diagnostic~-41faecba-b075-4ce2-a457-d1c6f903e364]: exited
+[debug] [2020-03-23T09:31:02.538Z] [worker-~diagnostic~-41faecba-b075-4ce2-a457-d1c6f903e364]: FINISHED
+[debug] [2020-03-23T09:31:02.538Z] [worker-app-94494e4f-a94a-41ee-8f8e-528ccf600a3e]: exited
+[debug] [2020-03-23T09:31:02.538Z] [worker-app-94494e4f-a94a-41ee-8f8e-528ccf600a3e]: FINISHED
+[debug] [2020-03-23T09:31:03.138Z] [runtime-status] [5347] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:31:03.153Z] [runtime-status] [5347] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:31:03.160Z] [runtime-status] [5347] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:31:03.165Z] [runtime-status] [5347] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:31:03.173Z] [runtime-status] [5347] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:31:03.677Z] [worker-~diagnostic~-e3102a48-e260-409f-994c-e8e70fba16b4]: IDLE
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:31:03.850Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:31:03.852Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:31:03.853Z] Accepted request GET /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:31:03.853Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T09:31:03.853Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T09:31:03.878Z] [worker-pool] addWorker(app)
+[debug] [2020-03-23T09:31:03.878Z] [worker-pool] Adding worker with key app, total=1
+[debug] [2020-03-23T09:31:03.878Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:31:03.879Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: Assigning socketPath: /tmp/fire_emu_5363.sock
+[debug] [2020-03-23T09:31:03.879Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: BUSY
+[debug] [2020-03-23T09:31:04.333Z] [runtime-status] [5363] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T09:31:04.338Z] [runtime-status] [5363] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T09:31:04.342Z] [runtime-status] [5363] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T09:31:04.345Z] [runtime-status] [5363] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:31:04.347Z] [runtime-status] [5363] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T09:31:04.871Z] [runtime-status] [5363] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:31:04.879Z] [runtime-status] [5363] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:31:04.886Z] [runtime-status] [5363] Running app in mode HTTPS
+[debug] [2020-03-23T09:31:04.893Z] [runtime-status] [5363] Attempting to listen to socketPath: /tmp/fire_emu_5363.sock
+[debug] [2020-03-23T09:31:04.898Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:31:04.925Z] [runtime-status] [5363] Ephemeral server handling GET request
+[debug] [2020-03-23T09:31:04.955Z] [runtime-status] [5363] Ephemeral server survived.
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:31:05.034Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: IDLE
+[debug] [2020-03-23T09:31:05.034Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] [hosting] Rewriting /login to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:31:15.194Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:31:15.194Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:31:15.194Z] Accepted request GET /thesis-c30c3/us-central1/app/login --> app
+[debug] [2020-03-23T09:31:15.194Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:31:15.194Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: Assigning socketPath: /tmp/fire_emu_5363.sock
+[debug] [2020-03-23T09:31:15.194Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: BUSY
+[debug] [2020-03-23T09:31:15.199Z] [runtime-status] [5363] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:31:15.201Z] [runtime-status] [5363] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:31:15.201Z] [runtime-status] [5363] Running app in mode HTTPS
+[debug] [2020-03-23T09:31:15.201Z] [runtime-status] [5363] Attempting to listen to socketPath: /tmp/fire_emu_5363.sock
+[debug] [2020-03-23T09:31:15.201Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:31:15.221Z] [runtime-status] [5363] Ephemeral server handling GET request
+[debug] [2020-03-23T09:31:15.225Z] [runtime-status] [5363] Ephemeral server survived.
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:31:15.225Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: IDLE
+[debug] [2020-03-23T09:31:15.225Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] [hosting] Rewriting / to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:31:18.385Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:31:18.390Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:31:18.390Z] Accepted request GET /thesis-c30c3/us-central1/app/ --> app
+[debug] [2020-03-23T09:31:18.391Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:31:18.391Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: Assigning socketPath: /tmp/fire_emu_5363.sock
+[debug] [2020-03-23T09:31:18.391Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: BUSY
+[debug] [2020-03-23T09:31:18.396Z] [runtime-status] [5363] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:31:18.398Z] [runtime-status] [5363] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:31:18.398Z] [runtime-status] [5363] Running app in mode HTTPS
+[debug] [2020-03-23T09:31:18.398Z] [runtime-status] [5363] Attempting to listen to socketPath: /tmp/fire_emu_5363.sock
+[debug] [2020-03-23T09:31:18.399Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:31:18.419Z] [runtime-status] [5363] Ephemeral server handling GET request
+[debug] [2020-03-23T09:31:18.420Z] [runtime-status] [5363] Ephemeral server survived.
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:31:18.424Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: IDLE
+[debug] [2020-03-23T09:31:18.424Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] [hosting] Rewriting /register to http://localhost:5001/thesis-c30c3/us-central1/app for local Function app
+[debug] [2020-03-23T09:31:20.788Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-23T09:31:20.790Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-23T09:31:20.790Z] Accepted request POST /thesis-c30c3/us-central1/app/register --> app
+[debug] [2020-03-23T09:31:20.790Z] [worker-pool] submitWork(triggerId=app)
+[debug] [2020-03-23T09:31:20.791Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: Assigning socketPath: /tmp/fire_emu_5363.sock
+[debug] [2020-03-23T09:31:20.791Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: BUSY
+[debug] [2020-03-23T09:31:20.795Z] [runtime-status] [5363] Trigger "app" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "app"
+[debug] [2020-03-23T09:31:20.796Z] [runtime-status] [5363] triggerDefinition {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2020-03-23T09:31:20.797Z] [runtime-status] [5363] Running app in mode HTTPS
+[debug] [2020-03-23T09:31:20.797Z] [runtime-status] [5363] Attempting to listen to socketPath: /tmp/fire_emu_5363.sock
+[debug] [2020-03-23T09:31:20.798Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-23T09:31:20.828Z] [runtime-status] [5363] Ephemeral server handling POST request
+[debug] [2020-03-23T09:31:20.850Z] [runtime-status] [5363] Ephemeral server survived.
+[info] i  functions: Finished "app" in ~1s
+[debug] [2020-03-23T09:31:20.853Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: IDLE
+[debug] [2020-03-23T09:31:20.853Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-23T12:18:45.214Z] File /home/lennert/Documents/thesis_site/functions/views/register.ejs changed, reloading triggers
+[debug] [2020-03-23T12:18:46.217Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T12:18:46.221Z] [worker-~diagnostic~-e3102a48-e260-409f-994c-e8e70fba16b4]: FINISHING
+[debug] [2020-03-23T12:18:46.232Z] [worker-pool] Shutting down IDLE worker (app)
+[debug] [2020-03-23T12:18:46.233Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: FINISHING
+[debug] [2020-03-23T12:18:46.260Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T12:18:46.261Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T12:18:46.261Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T12:18:46.261Z] [worker-~diagnostic~-f21ef1ef-1e80-4514-8bfa-5f191a74fef0]: Assigning socketPath: /tmp/fire_emu_5784.sock
+[debug] [2020-03-23T12:18:46.261Z] [worker-~diagnostic~-f21ef1ef-1e80-4514-8bfa-5f191a74fef0]: BUSY
+[debug] [2020-03-23T12:18:46.275Z] [worker-~diagnostic~-e3102a48-e260-409f-994c-e8e70fba16b4]: exited
+[debug] [2020-03-23T12:18:46.275Z] [worker-~diagnostic~-e3102a48-e260-409f-994c-e8e70fba16b4]: FINISHED
+[debug] [2020-03-23T12:18:46.275Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: exited
+[debug] [2020-03-23T12:18:46.275Z] [worker-app-f200b8c5-de43-4256-b3bb-4e47b3e2954b]: FINISHED
+[debug] [2020-03-23T12:18:46.620Z] [runtime-status] [5784] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T12:18:46.636Z] [runtime-status] [5784] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T12:18:46.638Z] [runtime-status] [5784] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T12:18:46.638Z] [runtime-status] [5784] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:18:46.642Z] [runtime-status] [5784] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:18:47.343Z] [worker-~diagnostic~-f21ef1ef-1e80-4514-8bfa-5f191a74fef0]: IDLE
+[debug] [2020-03-23T12:19:20.425Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T12:19:21.427Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T12:19:21.427Z] [worker-~diagnostic~-f21ef1ef-1e80-4514-8bfa-5f191a74fef0]: FINISHING
+[debug] [2020-03-23T12:19:21.432Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T12:19:21.432Z] [worker-pool] Cleaned up workers for app: 1 --> 0
+[debug] [2020-03-23T12:19:21.446Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T12:19:21.446Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T12:19:21.446Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T12:19:21.447Z] [worker-~diagnostic~-6b09e1fb-825c-4c0d-a3ff-34bc63cfc4d5]: Assigning socketPath: /tmp/fire_emu_5800.sock
+[debug] [2020-03-23T12:19:21.447Z] [worker-~diagnostic~-6b09e1fb-825c-4c0d-a3ff-34bc63cfc4d5]: BUSY
+[debug] [2020-03-23T12:19:21.450Z] [worker-~diagnostic~-f21ef1ef-1e80-4514-8bfa-5f191a74fef0]: exited
+[debug] [2020-03-23T12:19:21.450Z] [worker-~diagnostic~-f21ef1ef-1e80-4514-8bfa-5f191a74fef0]: FINISHED
+[debug] [2020-03-23T12:19:21.733Z] [runtime-status] [5800] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T12:19:21.736Z] [runtime-status] [5800] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T12:19:21.740Z] [runtime-status] [5800] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T12:19:21.743Z] [runtime-status] [5800] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:19:21.746Z] [runtime-status] [5800] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:19:22.187Z] [worker-~diagnostic~-6b09e1fb-825c-4c0d-a3ff-34bc63cfc4d5]: IDLE
+[debug] [2020-03-23T12:21:54.480Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T12:21:55.480Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-23T12:21:55.481Z] [worker-~diagnostic~-6b09e1fb-825c-4c0d-a3ff-34bc63cfc4d5]: FINISHING
+[debug] [2020-03-23T12:21:55.489Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-23T12:21:55.499Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T12:21:55.500Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-23T12:21:55.500Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T12:21:55.500Z] [worker-~diagnostic~-0260c2c3-98e6-49de-8126-d2c4c6723e84]: Assigning socketPath: /tmp/fire_emu_5821.sock
+[debug] [2020-03-23T12:21:55.500Z] [worker-~diagnostic~-0260c2c3-98e6-49de-8126-d2c4c6723e84]: BUSY
+[debug] [2020-03-23T12:21:55.503Z] [worker-~diagnostic~-6b09e1fb-825c-4c0d-a3ff-34bc63cfc4d5]: exited
+[debug] [2020-03-23T12:21:55.504Z] [worker-~diagnostic~-6b09e1fb-825c-4c0d-a3ff-34bc63cfc4d5]: FINISHED
+[debug] [2020-03-23T12:21:56.101Z] [runtime-status] [5821] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T12:21:56.110Z] [runtime-status] [5821] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T12:21:56.114Z] [runtime-status] [5821] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T12:21:56.125Z] [runtime-status] [5821] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:21:56.129Z] [runtime-status] [5821] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /home/lennert/Documents/thesis_site/functions/index.js:71
+      }).then(){
+               ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:1067:16)
+    at Module._compile (internal/modules/cjs/loader.js:1115:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14)
+    at Module.require (internal/modules/cjs/loader.js:1040:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:719:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:5:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2020-03-23T12:21:56.245Z] [worker-~diagnostic~-0260c2c3-98e6-49de-8126-d2c4c6723e84]: exited
+[debug] [2020-03-23T12:21:56.245Z] [worker-~diagnostic~-0260c2c3-98e6-49de-8126-d2c4c6723e84]: FINISHED
+[debug] [2020-03-23T12:26:05.993Z] File /home/lennert/Documents/thesis_site/functions/scripts/dbScripts.js changed, reloading triggers
+[debug] [2020-03-23T12:26:06.997Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-03-23T12:26:07.011Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T12:26:07.012Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-23T12:26:07.012Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T12:26:07.012Z] [worker-~diagnostic~-f351bbb5-aca1-485b-b7a6-c06efe43b0a0]: Assigning socketPath: /tmp/fire_emu_5860.sock
+[debug] [2020-03-23T12:26:07.012Z] [worker-~diagnostic~-f351bbb5-aca1-485b-b7a6-c06efe43b0a0]: BUSY
+[debug] [2020-03-23T12:26:07.545Z] [runtime-status] [5860] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T12:26:07.551Z] [runtime-status] [5860] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T12:26:07.555Z] [runtime-status] [5860] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T12:26:07.558Z] [runtime-status] [5860] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:26:07.561Z] [runtime-status] [5860] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /home/lennert/Documents/thesis_site/functions/index.js:71
+      }).then(){
+               ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:1067:16)
+    at Module._compile (internal/modules/cjs/loader.js:1115:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14)
+    at Module.require (internal/modules/cjs/loader.js:1040:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:719:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:5:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2020-03-23T12:26:07.625Z] [worker-~diagnostic~-f351bbb5-aca1-485b-b7a6-c06efe43b0a0]: exited
+[debug] [2020-03-23T12:26:07.625Z] [worker-~diagnostic~-f351bbb5-aca1-485b-b7a6-c06efe43b0a0]: FINISHED
+[debug] [2020-03-23T12:29:06.485Z] File /home/lennert/Documents/thesis_site/functions/scripts/dbScripts.js changed, reloading triggers
+[debug] [2020-03-23T12:29:07.487Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-03-23T12:29:07.495Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T12:29:07.495Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-23T12:29:07.495Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T12:29:07.496Z] [worker-~diagnostic~-77471063-50b4-4aa9-9c17-d153f65c2b2d]: Assigning socketPath: /tmp/fire_emu_5874.sock
+[debug] [2020-03-23T12:29:07.496Z] [worker-~diagnostic~-77471063-50b4-4aa9-9c17-d153f65c2b2d]: BUSY
+[debug] [2020-03-23T12:29:07.732Z] [runtime-status] [5874] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T12:29:07.736Z] [runtime-status] [5874] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T12:29:07.744Z] [runtime-status] [5874] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T12:29:07.749Z] [runtime-status] [5874] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:29:07.752Z] [runtime-status] [5874] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /home/lennert/Documents/thesis_site/functions/index.js:71
+      }).then(){
+               ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:1067:16)
+    at Module._compile (internal/modules/cjs/loader.js:1115:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14)
+    at Module.require (internal/modules/cjs/loader.js:1040:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:719:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:5:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2020-03-23T12:29:07.823Z] [worker-~diagnostic~-77471063-50b4-4aa9-9c17-d153f65c2b2d]: exited
+[debug] [2020-03-23T12:29:07.823Z] [worker-~diagnostic~-77471063-50b4-4aa9-9c17-d153f65c2b2d]: FINISHED
+[debug] [2020-03-23T12:29:31.487Z] File /home/lennert/Documents/thesis_site/functions/scripts/dbScripts.js changed, reloading triggers
+[debug] [2020-03-23T12:29:32.489Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-03-23T12:29:32.498Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T12:29:32.498Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-23T12:29:32.498Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T12:29:32.498Z] [worker-~diagnostic~-92b0624a-3ace-46f4-aa60-3681d50c382a]: Assigning socketPath: /tmp/fire_emu_5886.sock
+[debug] [2020-03-23T12:29:32.498Z] [worker-~diagnostic~-92b0624a-3ace-46f4-aa60-3681d50c382a]: BUSY
+[debug] [2020-03-23T12:29:32.738Z] [runtime-status] [5886] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T12:29:32.741Z] [runtime-status] [5886] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T12:29:32.745Z] [runtime-status] [5886] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T12:29:32.749Z] [runtime-status] [5886] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:29:32.752Z] [runtime-status] [5886] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /home/lennert/Documents/thesis_site/functions/index.js:71
+      }).then(){
+               ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:1067:16)
+    at Module._compile (internal/modules/cjs/loader.js:1115:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14)
+    at Module.require (internal/modules/cjs/loader.js:1040:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:719:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:5:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2020-03-23T12:29:32.818Z] [worker-~diagnostic~-92b0624a-3ace-46f4-aa60-3681d50c382a]: exited
+[debug] [2020-03-23T12:29:32.818Z] [worker-~diagnostic~-92b0624a-3ace-46f4-aa60-3681d50c382a]: FINISHED
+[debug] [2020-03-23T12:29:33.682Z] File /home/lennert/Documents/thesis_site/functions/scripts/dbScripts.js changed, reloading triggers
+[debug] [2020-03-23T12:29:34.684Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-03-23T12:29:34.694Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T12:29:34.694Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-23T12:29:34.694Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T12:29:34.694Z] [worker-~diagnostic~-21f35146-f3e6-433f-b75e-7becf019d9b5]: Assigning socketPath: /tmp/fire_emu_5897.sock
+[debug] [2020-03-23T12:29:34.694Z] [worker-~diagnostic~-21f35146-f3e6-433f-b75e-7becf019d9b5]: BUSY
+[debug] [2020-03-23T12:29:35.245Z] [runtime-status] [5897] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T12:29:35.252Z] [runtime-status] [5897] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T12:29:35.258Z] [runtime-status] [5897] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T12:29:35.262Z] [runtime-status] [5897] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:29:35.267Z] [runtime-status] [5897] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /home/lennert/Documents/thesis_site/functions/index.js:71
+      }).then(){
+               ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:1067:16)
+    at Module._compile (internal/modules/cjs/loader.js:1115:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14)
+    at Module.require (internal/modules/cjs/loader.js:1040:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:719:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:5:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2020-03-23T12:29:35.336Z] [worker-~diagnostic~-21f35146-f3e6-433f-b75e-7becf019d9b5]: exited
+[debug] [2020-03-23T12:29:35.336Z] [worker-~diagnostic~-21f35146-f3e6-433f-b75e-7becf019d9b5]: FINISHED
+[debug] [2020-03-23T12:31:51.160Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T12:31:52.161Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-03-23T12:31:52.168Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T12:31:52.170Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-23T12:31:52.171Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T12:31:52.171Z] [worker-~diagnostic~-0489f697-7104-4208-9a8f-4545ca116c1b]: Assigning socketPath: /tmp/fire_emu_5911.sock
+[debug] [2020-03-23T12:31:52.171Z] [worker-~diagnostic~-0489f697-7104-4208-9a8f-4545ca116c1b]: BUSY
+[debug] [2020-03-23T12:31:52.512Z] [runtime-status] [5911] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T12:31:52.517Z] [runtime-status] [5911] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T12:31:52.528Z] [runtime-status] [5911] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T12:31:52.534Z] [runtime-status] [5911] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:31:52.536Z] [runtime-status] [5911] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /home/lennert/Documents/thesis_site/functions/index.js:71
+      }).then(){
+               ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:1067:16)
+    at Module._compile (internal/modules/cjs/loader.js:1115:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14)
+    at Module.require (internal/modules/cjs/loader.js:1040:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:719:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:5:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2020-03-23T12:31:52.605Z] [worker-~diagnostic~-0489f697-7104-4208-9a8f-4545ca116c1b]: exited
+[debug] [2020-03-23T12:31:52.606Z] [worker-~diagnostic~-0489f697-7104-4208-9a8f-4545ca116c1b]: FINISHED
+[debug] [2020-03-23T12:32:17.017Z] File /home/lennert/Documents/thesis_site/functions/index.js changed, reloading triggers
+[debug] [2020-03-23T12:32:18.017Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-03-23T12:32:18.024Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-23T12:32:18.024Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-23T12:32:18.024Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-23T12:32:18.024Z] [worker-~diagnostic~-6098c816-910d-41da-9873-16ee3e06aea4]: Assigning socketPath: /tmp/fire_emu_5923.sock
+[debug] [2020-03-23T12:32:18.024Z] [worker-~diagnostic~-6098c816-910d-41da-9873-16ee3e06aea4]: BUSY
+[debug] [2020-03-23T12:32:18.384Z] [runtime-status] [5923] Functions runtime initialized. {"cwd":"/home/lennert/Documents/thesis_site/functions","node_version":"13.9.0"}
+[debug] [2020-03-23T12:32:18.388Z] [runtime-status] [5923] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-23T12:32:18.393Z] [runtime-status] [5923] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-23T12:32:18.397Z] [runtime-status] [5923] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-23T12:32:18.404Z] [runtime-status] [5923] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lennert/Documents/thesis_site/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /home/lennert/Documents/thesis_site/functions/index.js:73
+      }).then(){
+               ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:1067:16)
+    at Module._compile (internal/modules/cjs/loader.js:1115:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14)
+    at Module.require (internal/modules/cjs/loader.js:1040:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:719:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:5:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2020-03-23T12:32:18.478Z] [worker-~diagnostic~-6098c816-910d-41da-9873-16ee3e06aea4]: exited
+[debug] [2020-03-23T12:32:18.478Z] [worker-~diagnostic~-6098c816-910d-41da-9873-16ee3e06aea4]: FINISHED

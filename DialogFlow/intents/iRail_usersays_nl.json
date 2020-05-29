@@ -1,0 +1,274 @@
+[
+  {
+    "id": "b09cf706-f848-4863-b3bc-fead7403d586",
+    "data": [
+      {
+        "text": "Om hoe laat vertrekt de trein van ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Liedekerke",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "morgen om 4:30 in de middag",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bcc0a6b6-a7a6-4f44-bba8-57e69d4b9e46",
+    "data": [
+      {
+        "text": "Om hoe laat vertrekt de trein van ",
+        "userDefined": false
+      },
+      {
+        "text": "Brussel-Centraal",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "morgen om 4:30 in de middag",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      },
+      {
+        "text": " precies?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "32a80e6f-5926-4533-bb74-1211125d120a",
+    "data": [
+      {
+        "text": "Om hoe laat vertrekt de volgende trein van ",
+        "userDefined": false
+      },
+      {
+        "text": "Brussel-Centraal",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c1a00b1f-59b5-456a-ad61-ad27e349f489",
+    "data": [
+      {
+        "text": "Om hoe laat vertrekt de volgende trein ",
+        "userDefined": false
+      },
+      {
+        "text": "Brussel-Centraal",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Ninove",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5d6b6de2-2b5d-4885-b896-fb331dc3960c",
+    "data": [
+      {
+        "text": "Geef de volgende trein naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Kortrijk",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " van ",
+        "userDefined": false
+      },
+      {
+        "text": "Antwerpen-Centraal",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "20f53883-7d97-410b-a785-370e8b6f6b1f",
+    "data": [
+      {
+        "text": "Welke richting gaat de trein van ",
+        "userDefined": false
+      },
+      {
+        "text": "Ternat",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Denderleeuw",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " uit?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "19e11203-ee37-476e-a814-94902e2f9ebc",
+    "data": [
+      {
+        "text": "Om hoe laat vertrekt de volgende trein van station ",
+        "userDefined": false
+      },
+      {
+        "text": "Oostende",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Liedekerke?",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "42090f7a-b11e-42ee-90bb-018d6be3ac25",
+    "data": [
+      {
+        "text": "Wat is de volgende trein om van ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Brussel-Zuid",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " te gaan?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

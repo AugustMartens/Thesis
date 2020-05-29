@@ -1,0 +1,68 @@
+{
+  "id": "6d10761e-22c1-486c-8cc9-bebd22dd6078",
+  "name": "SporzaGetArticle",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1dccf4f8-fa26-4118-aa54-fe0342073e33",
+          "required": true,
+          "dataType": "@Sporza",
+          "name": "Sporza",
+          "value": "$Sporza",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "f9af8084-f3ae-47ac-b537-d062bdd6936e",
+          "required": true,
+          "dataType": "@vrtArtikel",
+          "name": "vrtArtikel",
+          "value": "$vrtArtikel",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "3d056b6d-044e-4423-8afb-5d65be0a0dbe",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "number-integer",
+          "value": "$number-integer",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Thesis</string>
+    <string name="permission_message">This app needs to record audio and recognize your speech.</string>
+    <string name="listening">Aan het Luisteren…</string>
+    <string name="mapbox_access_token">MAPBOX_ACCESS_TOKEN</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

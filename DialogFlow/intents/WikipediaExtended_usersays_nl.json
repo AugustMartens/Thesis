@@ -1,0 +1,66 @@
+[
+  {
+    "id": "f3ef021b-e6b8-410a-b2d0-041a23595a3f",
+    "data": [
+      {
+        "text": "Wat weet ",
+        "userDefined": false
+      },
+      {
+        "text": "Wikipedia",
+        "alias": "wikipedia",
+        "meta": "@wikipedia",
+        "userDefined": true
+      },
+      {
+        "text": " over ",
+        "userDefined": false
+      },
+      {
+        "text": "Marc Van Ranst",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "23a09744-8c35-471e-80e6-0eb3bee36d25",
+    "data": [
+      {
+        "text": "Geef me alles dat ",
+        "userDefined": false
+      },
+      {
+        "text": "Wikipedia",
+        "alias": "wikipedia",
+        "meta": "@wikipedia",
+        "userDefined": true
+      },
+      {
+        "text": " weet over ",
+        "userDefined": false
+      },
+      {
+        "text": "Barack Obama",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

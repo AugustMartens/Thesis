@@ -1,0 +1,9 @@
+{
+  "id": "714aef1c-5c40-4ece-bff8-fc90b3d62dce",
+  "name": "transportWalking",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

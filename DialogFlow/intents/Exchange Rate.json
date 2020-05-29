@@ -1,0 +1,56 @@
+{
+  "id": "226f67cc-6b48-4408-90c0-125795dc9b92",
+  "name": "Exchange Rate",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "57b93ed5-645c-44ac-b400-62be7d99956f",
+          "required": true,
+          "dataType": "@sys.currency-name",
+          "name": "currency-name",
+          "value": "$currency-name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7f44f34f-71fe-4874-a139-bf8fca2a1820",
+          "required": true,
+          "dataType": "@sys.currency-name",
+          "name": "currency-name1",
+          "value": "$currency-name1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

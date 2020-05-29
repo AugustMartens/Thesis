@@ -1,0 +1,56 @@
+{
+  "id": "abc64e83-14bc-487a-9e8c-faf3c3cee2db",
+  "name": "COVID-19Belgium",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a5b139a4-fa08-4aa0-a7db-eed61822e207",
+          "required": true,
+          "dataType": "@covid-19",
+          "name": "covid-19",
+          "value": "$covid-19",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7ecc8e5d-cba5-43e7-8fa7-3d1bec63263d",
+          "required": false,
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

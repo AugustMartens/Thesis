@@ -1,0 +1,9 @@
+{
+  "id": "f65fadf9-abef-4605-97e8-50a5f1a8e437",
+  "name": "Film",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "74b37bbc-e708-4d85-b8f3-db90f222651c",
+  "name": "transportCar",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

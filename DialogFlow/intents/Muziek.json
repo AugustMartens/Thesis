@@ -1,0 +1,56 @@
+{
+  "id": "7fcea1fe-728c-4907-ad73-3a86b8d214c9",
+  "name": "Muziek",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8781c6d3-b70c-4486-bae3-f8f3244a94f8",
+          "required": false,
+          "dataType": "@sys.music-artist",
+          "name": "music-artist",
+          "value": "$music-artist",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "26b73842-d480-4873-869b-bee914e835a1",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "song",
+          "value": "$song",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

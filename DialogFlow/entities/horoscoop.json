@@ -1,0 +1,9 @@
+{
+  "id": "fbef6ec2-b589-4837-b4e4-b5c73b35c28e",
+  "name": "horoscoop",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

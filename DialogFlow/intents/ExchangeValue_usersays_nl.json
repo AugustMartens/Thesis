@@ -1,0 +1,66 @@
+[
+  {
+    "id": "8a8970c7-17b2-4495-8cf0-ec7b8e1260f9",
+    "data": [
+      {
+        "text": "Hoeveel zijn ",
+        "userDefined": false
+      },
+      {
+        "text": "200 Tsjechische Kronen",
+        "alias": "unit-currency",
+        "meta": "@sys.unit-currency",
+        "userDefined": true
+      },
+      {
+        "text": " omgerekend in ",
+        "userDefined": false
+      },
+      {
+        "text": "euro",
+        "alias": "currency-name",
+        "meta": "@sys.currency-name",
+        "userDefined": true
+      },
+      {
+        "text": " waard?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7a50bc83-c859-4cd1-b2b7-afd79104f6e1",
+    "data": [
+      {
+        "text": "Hoeveel is ",
+        "userDefined": false
+      },
+      {
+        "text": "15 euro",
+        "alias": "unit-currency",
+        "meta": "@sys.unit-currency",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Amerikaanse Dollar",
+        "alias": "currency-name",
+        "meta": "@sys.currency-name",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

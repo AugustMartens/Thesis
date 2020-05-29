@@ -1,0 +1,68 @@
+{
+  "id": "fc683cf0-9fe9-4d36-8b78-ea5ad33cef74",
+  "name": "iRailLijstTreinen",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4bebac98-5306-4a66-b4da-78cc486598b9",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "04ff7b04-b9e1-4600-aade-5f6230a68594",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1278d582-2749-4e74-854e-ed10b94676b4",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

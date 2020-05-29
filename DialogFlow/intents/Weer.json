@@ -1,0 +1,56 @@
+{
+  "id": "efaddd54-b8e6-4d54-8b18-bdf19f46ad23",
+  "name": "Weer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4bf9cd41-5a7b-4d07-a0a9-5e952e2d0e6d",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8b2fba80-902d-4844-8f82-03084ad1f77f",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

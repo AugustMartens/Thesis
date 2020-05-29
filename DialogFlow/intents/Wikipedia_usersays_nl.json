@@ -1,0 +1,77 @@
+[
+  {
+    "id": "47696476-94bf-4cb1-917e-209bc0c94b8c",
+    "data": [
+      {
+        "text": "Vertel me meer over ",
+        "userDefined": false
+      },
+      {
+        "text": "Donald Trump",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6977df69-7fa7-4913-aa1b-2a29067c91f2",
+    "data": [
+      {
+        "text": "Wat is ",
+        "userDefined": false
+      },
+      {
+        "text": "een",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "forrel",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bcab7540-0e52-40db-8727-6b6f1a9a1753",
+    "data": [
+      {
+        "text": "Wie is ",
+        "userDefined": false
+      },
+      {
+        "text": "Barack Obama",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

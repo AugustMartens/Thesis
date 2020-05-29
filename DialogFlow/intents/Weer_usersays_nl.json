@@ -1,0 +1,138 @@
+[
+  {
+    "id": "3457a155-1681-4757-831e-4a4672ca0cd7",
+    "data": [
+      {
+        "text": "wat is het weer ",
+        "userDefined": false
+      },
+      {
+        "text": "vandaag",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4985986c-37a8-4ae2-9129-8b3259ba1b91",
+    "data": [
+      {
+        "text": "heb ik ",
+        "userDefined": false
+      },
+      {
+        "text": "een",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " paraplu nodig",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ada288c0-93e2-436f-85ec-8f5eabd3e030",
+    "data": [
+      {
+        "text": "gaan het regenen?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d7d151d-f2bd-4e28-b16d-dbb4e2a36f3c",
+    "data": [
+      {
+        "text": "wat is ",
+        "userDefined": false
+      },
+      {
+        "text": "de",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " weersvoorspelling voor ",
+        "userDefined": false
+      },
+      {
+        "text": "volgende week",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "530f7094-6bcb-4b00-865a-32f90b32c086",
+    "data": [
+      {
+        "text": "Weer ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ee19b1bb-fc23-47b8-b73a-491d1a761dd0",
+    "data": [
+      {
+        "text": "Wat is het weer in ",
+        "userDefined": false
+      },
+      {
+        "text": "Londen",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f6bd77b3-eb3b-4ebc-8c3b-b790738e3b75",
+    "data": [
+      {
+        "text": "Geef me het weer in ",
+        "userDefined": false
+      },
+      {
+        "text": "Brussel.",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

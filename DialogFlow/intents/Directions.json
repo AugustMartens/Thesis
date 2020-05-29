@@ -1,0 +1,104 @@
+{
+  "id": "bc9e0fb9-55aa-4720-8636-b1ea18a2d002",
+  "name": "Directions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "687237bc-c883-4bd4-ac75-d3488d5ac159",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "3fc4d4d0-765e-4e71-82e0-28caa3180902",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "fd983aaa-71be-439d-93e7-372c32a1d182",
+          "required": true,
+          "dataType": "@routebeschrijving",
+          "name": "routebeschrijving",
+          "value": "$routebeschrijving",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "ff846445-3318-453c-8414-2442009885c2",
+          "required": false,
+          "dataType": "@transportCycling",
+          "name": "transportCycling",
+          "value": "$transportCycling",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "263066f0-20e3-4bb5-9544-a0966ddfe825",
+          "required": false,
+          "dataType": "@transportWalking",
+          "name": "transportWalking",
+          "value": "$transportWalking",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "3a0fc30d-3cd8-4365-a9d4-a625a2506d97",
+          "required": false,
+          "dataType": "@transportCar",
+          "name": "transportCar",
+          "value": "$transportCar",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

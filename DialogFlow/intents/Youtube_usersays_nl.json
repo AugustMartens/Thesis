@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ae79a4d5-da47-4d76-ad23-b19a0684d2cc",
+    "data": [
+      {
+        "text": "zoek op youtube naar video\u0027",
+        "userDefined": false
+      },
+      {
+        "text": "s over",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Vietnam",
+        "alias": "query",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c0e0e49f-5227-493b-9bf7-7f6a1d0e5e8e",
+    "data": [
+      {
+        "text": "speel ",
+        "userDefined": false
+      },
+      {
+        "text": "een film",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " van ",
+        "userDefined": false
+      },
+      {
+        "text": "bright",
+        "alias": "query",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3cee95d7-f32f-4fa0-b19a-b8bf95a2b6a4",
+    "data": [
+      {
+        "text": "zoek op youtube naar video\u0027",
+        "userDefined": false
+      },
+      {
+        "text": "s over",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "autos",
+        "alias": "query",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d09b24da-06cd-41e0-b31d-2ac6f60f25c0",
+    "data": [
+      {
+        "text": "speel video\u0027",
+        "userDefined": false
+      },
+      {
+        "text": "s",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " van ",
+        "userDefined": false
+      },
+      {
+        "text": "MKBHD",
+        "alias": "query",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5fe1c441-35cc-4cd1-a769-9721c62efec3",
+    "data": [
+      {
+        "text": "Zoek op Youtube naar ",
+        "userDefined": false
+      },
+      {
+        "text": "VRT",
+        "alias": "query",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

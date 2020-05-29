@@ -1,0 +1,46 @@
+[
+  {
+    "id": "4c6c5629-9f41-4a09-84ec-80b432505772",
+    "data": [
+      {
+        "text": "Geef me het ",
+        "userDefined": false
+      },
+      {
+        "text": "VRT Nieuws",
+        "alias": "vrtArtikel",
+        "meta": "@vrtArtikel",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ba0cddf9-c732-41b8-b1d0-0bdbd2a0447c",
+    "data": [
+      {
+        "text": "Geef me de ",
+        "userDefined": false
+      },
+      {
+        "text": "VRT artikels",
+        "alias": "vrtArtikel",
+        "meta": "@vrtArtikel",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

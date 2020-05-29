@@ -1,0 +1,44 @@
+[
+  {
+    "id": "d16a1cf0-6fe2-4339-9eb2-7cfb8154b5fa",
+    "data": [
+      {
+        "text": "Geef meer info over de trein die vertrekt om ",
+        "userDefined": false
+      },
+      {
+        "text": "8u \u0027s avonds",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      },
+      {
+        "text": " van ",
+        "userDefined": false
+      },
+      {
+        "text": "Leuven",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Liedekerke",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

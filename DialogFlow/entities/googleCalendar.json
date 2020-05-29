@@ -1,0 +1,9 @@
+{
+  "id": "60f13295-7203-4203-a082-f77132e948dd",
+  "name": "googleCalendar",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

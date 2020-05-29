@@ -1,0 +1,166 @@
+[
+  {
+    "id": "7264c866-0f25-4b89-9f31-29f37d82a19b",
+    "data": [
+      {
+        "text": "Wat is de wisselkoers van ",
+        "userDefined": false
+      },
+      {
+        "text": "Dollar",
+        "alias": "currency-name",
+        "meta": "@sys.currency-name",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Euro",
+        "alias": "currency-name1",
+        "meta": "@sys.currency-name",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5339ec60-0251-4e0e-8b05-1c24c1fcba2f",
+    "data": [
+      {
+        "text": "Wat is de wisselkoers voor een ",
+        "userDefined": false
+      },
+      {
+        "text": "Euro",
+        "alias": "currency-name",
+        "meta": "@sys.currency-name",
+        "userDefined": true
+      },
+      {
+        "text": " om te zetten naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Tsjechische Kroon",
+        "alias": "currency-name1",
+        "meta": "@sys.currency-name",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ba9bf8d5-f4ec-410c-86ce-938a1ef6c622",
+    "data": [
+      {
+        "text": "Amerikaanse Dollar",
+        "alias": "currency-name",
+        "meta": "@sys.currency-name",
+        "userDefined": true
+      },
+      {
+        "text": " naar ",
+        "userDefined": false
+      },
+      {
+        "text": "Euro",
+        "alias": "currency-name1",
+        "meta": "@sys.currency-name",
+        "userDefined": true
+      },
+      {
+        "text": " omzetten.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e7ee7af0-fa50-4cc4-9f8e-e9e2b0c2d994",
+    "data": [
+      {
+        "text": "NZD",
+        "alias": "currency-name",
+        "meta": "@sys.currency-name",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "CAD",
+        "alias": "currency-name1",
+        "meta": "@sys.currency-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b415697-a1d2-473e-aaa5-cd549ced1e9e",
+    "data": [
+      {
+        "text": "USD",
+        "alias": "currency-name",
+        "meta": "@sys.currency-name",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "CZK",
+        "alias": "currency-name1",
+        "meta": "@sys.currency-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7d080067-3b3e-449c-b6ff-facd1f939952",
+    "data": [
+      {
+        "text": "EUR",
+        "alias": "currency-name",
+        "meta": "@sys.currency-name",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "USD",
+        "alias": "currency-name1",
+        "meta": "@sys.currency-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "f7bebe06-8490-4004-808c-faf7f3a946a7",
+  "name": "transportCycling",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

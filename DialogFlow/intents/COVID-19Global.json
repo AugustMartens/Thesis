@@ -1,0 +1,56 @@
+{
+  "id": "e25bc075-01a6-4f83-83d9-46c523bd7262",
+  "name": "COVID-19Global",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fbb358f2-d42b-42dd-9186-f4dd5b0bb329",
+          "required": true,
+          "dataType": "@covid-19",
+          "name": "covid-19",
+          "value": "$covid-19",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "21b9cb2b-c79d-4ac5-972c-68e6d19ccb9b",
+          "required": true,
+          "dataType": "@wereldwijd",
+          "name": "wereldwijd",
+          "value": "$wereldwijd",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "nl",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
