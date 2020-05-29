@@ -9,7 +9,7 @@ Different platforms are used for the end to end implementation of the smart spea
 * Android: Open file with Android Studio and compile.
 * Dialogflow: import ZIP file with Dialogflow console.
 * Google Cloud: import files into cloud functions.
-* Website: Runs on firebase hosting. Download Firebase Cli, then:
+* Website: Runs on firebase hosting. Download Firebase CLI, then:
 ```bash
 firebase init
 firebase serve
